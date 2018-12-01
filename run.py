@@ -1,5 +1,5 @@
 import numpy as np
-from mdp import MDP, TabularQ, Q_learn, greedy
+from mdp import MDP, TabularQ, Q_learn
 
 # states: list or set of states
 # actions: list or set of actions
@@ -21,7 +21,7 @@ def reward_fn(state, action):
 
 stock_agent = MDP(states, actions, transition_model, reward_fn, discount_factor)
 Q = TabularQ(stock_agent.states, stock_agent.actions)
-Q_learn(stock_agent, Q)
+Q_learn(stock_agent, Q, eps = 0) # setting eps = 0 means no epsilon-greedy
 print(Q.q)
 
 
