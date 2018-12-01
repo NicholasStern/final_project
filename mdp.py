@@ -5,15 +5,6 @@ from keras.layers.core import Dense
 from keras.optimizers import Adam
 
 class MDP:
-    # Needs the following attributes:
-    # states: list or set of states
-    # actions: list or set of actions
-    # discount_factor: real, greater than 0, less than or equal to 1
-    # start: optional instance of DDist, specifying initial state dist
-    #    if it's unspecified, we'll use a uniform over states
-    # These are functions:
-    # transition_model: function from (state, action) into DDist over next state
-    # reward_fn: function from (state, action) to real-valued reward
 
     def __init__(self, states, actions, transition_model, reward_fn,
                      discount_factor = 1.0):
