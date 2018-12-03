@@ -6,31 +6,33 @@ from keras.optimizers import Adam
 
 class MDP:
 
-    def __init__(self, states, actions, transition_model, reward_fn,
+    def __init__(self, states, actions, transition_model, reward_fn, p,
                      discount_factor = 1.0):
         self.states = states
         self.actions = actions
         self.transition_model = transition_model
         self.reward_fn = reward_fn
         self.discount_factor = discount_factor
+        self.p = p
 
     # Given a state, return True if the state should be considered to
     # be terminal.
-    def terminal(self, state, action):
+    def terminal(self, state):
         # TODO
 
     # Choose a state to start over
     def init_state(self):
-        # TODO
+        return (-1,-1,-1)
 
-    # Simulate a transition from state s, given action a.  Return
-    # reward for (s,a) and new state, drawn from transition.  If a
+    # Simulate a transition from state s, given action a at point "p" in history.
+    # Return reward for (s,a) and new state, drawn from transition.  If a
     # terminal state is encountered, sample next state from initial
     # state distribution
     def sim_transition(self, s, a):
+        self.p += 1
         return (self.reward_fn(s, a),
                 self.init_state() if self.terminal(s) else
-                    self.transition_model(s, a))
+                    self.transition_model(s, a, self.p))
 
 
 
@@ -59,7 +61,7 @@ def greedy(q, s):
 
 # return a randomly selected element from the list
 def randomly_select(alist):
-    # TODO
+    return alist[random.randint(0,len(alist)-1)]
 
 def epsilon_greedy(q, s, eps = 0.5):
     if random.random() < eps:  # True with prob eps, random action
