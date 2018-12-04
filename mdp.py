@@ -17,8 +17,8 @@ class MDP:
 
     # Given a state, return True if the state should be considered to
     # be terminal.
-    def terminal(self, state, action):
-        if action == 'buy':
+    def terminal(self, state):
+        if len(state) == 1:
             return True
         else:
             return False
@@ -33,8 +33,8 @@ class MDP:
     # state distribution
     def sim_transition(self, s, a):
         self.p += 1
-        return (self.reward_fn(s, a),
-                self.init_state() if self.terminal(s, a) else
+        return (self.reward_fn(s, a, self.p),
+                self.init_state() if self.terminal(s) else
                     self.transition_model(s, a, self.p))
 
 
@@ -97,7 +97,7 @@ def Q_learn(mdp, q, lr=.1, iters=100, eps = 0.5):
     s = mdp.init_state()
     for i in range(iters):
 
-        if mdp.terminal(s): # TODO This right here needs to be changed
+        if mdp.terminal(s):
             a = epsilon_greedy(q, s, eps)
             r, s_prime = mdp.sim_transition(s, a)
             t = r

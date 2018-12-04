@@ -48,7 +48,7 @@ wait_penalty = -1  # penalty agent gets for not doing anything
 # transition_model: function from (state, action) to return the next state at point "p" in the history
 def transition_model(state, action, p):
     if action == 'buy':
-        return None  # signifying terminal state has been reached
+        return ('T')  # signifying terminal state has been reached
     else:
         new_state = list(state[1:])
         new_state.append(hist[p])
