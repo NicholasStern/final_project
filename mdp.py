@@ -1,12 +1,12 @@
 import random
 import numpy as np
-from keras.models import Sequential
-from keras.layers.core import Dense
-from keras.optimizers import Adam
+# from keras.models import Sequential
+# from keras.layers.core import Dense
+# from keras.optimizers import Adam
 
 class MDP:
 
-    def __init__(self, states, actions, transition_model, reward_fn, p,
+    def __init__(self, states, actions, transition_model, reward_fn, p, hist, hwindow,
                      discount_factor = 1.0):
         self.states = states
         self.actions = actions
@@ -14,6 +14,8 @@ class MDP:
         self.reward_fn = reward_fn
         self.discount_factor = discount_factor
         self.p = p
+        self.hist = hist
+        self.hwindow = hwindow
 
     # Given a state, return True if the state should be considered to
     # be terminal.
@@ -25,18 +27,19 @@ class MDP:
 
     # Choose a state to start over
     def init_state(self):
-        return (-1,-1,-1)
+        new_init_state = tuple([self.hist[self.p-i] for i in range(1, self.hwindow+1)])
+        return new_init_state
 
     # Simulate a transition from state s, given action a at point "p" in history.
     # Return reward for (s,a) and new state, drawn from transition.  If a
     # terminal state is encountered, sample next state from initial
     # state distribution
     def sim_transition(self, s, a):
-        self.p += 1
-        return (self.reward_fn(s, a, self.p),
-                self.init_state() if self.terminal(s) else
-                    self.transition_model(s, a, self.p))
-
+        if self.terminal(s):
+            return self.reward_fn(s, a, self.p), self.init_state()
+        else:
+            self.p += 1
+            return self.reward_fn(s, a, self.p), self.transition_model(s, a, self.p)
 
 
 # The q function is typically an instance of TabularQ, implemented as a
@@ -91,22 +94,22 @@ class TabularQ:
 
 
 def Q_learn(mdp, q, lr=.1, iters=100, eps = 0.5):
-
-    # raise NotImplementedError('Q_learn')
-
+    actions = []
     s = mdp.init_state()
     for i in range(iters):
-
         if mdp.terminal(s):
             a = epsilon_greedy(q, s, eps)
             r, s_prime = mdp.sim_transition(s, a)
-            t = r
+            t = 0
             q.update([(s, a, t)], lr)
             s = s_prime
         else:
             a = epsilon_greedy(q, s, eps)
+            actions.append(a)
             r, s_prime = mdp.sim_transition(s, a)
+            if s_prime is None:
+                break
             t = r + mdp.discount_factor * value(q, s_prime)
             q.update([(s, a, t)], lr)
             s = s_prime
-    return q
+    return q, actions[:-1]  # knock off last one bc there's no way to validate it
