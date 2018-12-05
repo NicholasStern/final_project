@@ -20,7 +20,7 @@ class MDP:
     # Given a state, return True if the state should be considered to
     # be terminal.
     def terminal(self, state):
-        if len(state) == 1:
+        if state == ('T'):
             return True
         else:
             return False
@@ -96,7 +96,7 @@ class TabularQ:
 def Q_learn(mdp, q, lr=.1, iters=100, eps = 0.5):
     actions = []
     s = mdp.init_state()
-    for i in range(iters):
+    for _ in range(iters):
         if mdp.terminal(s):
             a = epsilon_greedy(q, s, eps)
             r, s_prime = mdp.sim_transition(s, a)

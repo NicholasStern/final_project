@@ -1,0 +1,9 @@
+---Results---
+
+Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5012910365178901
+Fraction of Purchases:  0.9948358539284397
+
+Parameters of run: hwindow 1, reward (0.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5007377351530801
+Fraction of Purchases:  0.9961268904463297
