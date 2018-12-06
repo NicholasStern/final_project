@@ -72,6 +72,8 @@ if args.discount:
 else:
     discount_factor = 1  # default
 
+#########################################################
+
 hist = gen_hist('histories/amazon.csv')
 p = np.copy(hwindow)  # pointer index to history (start at 4th element so we have a history window
 states = gen_states(hwindow)
@@ -91,10 +93,10 @@ def transition_model(state, action, p):
 
 # reward_fn: function from (state, action) to real-valued reward at point "p" in the history
 def reward_fn(state, action, p):
-    if state == ('T'):  # if terminal state
-        return 0
-    elif p == len(hist):  # if we have reached the end of the data
+    if p == len(hist):  # if we have reached the end of the data
         return None
+    elif state == ('T'):  # if terminal state
+        return 0
     elif action == 'buy' and hist[p] == 1:  # if stock went up after buying
         return reward
     elif action == 'buy' and hist[p] == 0:  # if stock went down after buying
@@ -110,9 +112,7 @@ def evaluate(hist, actions):
 
 stock_agent = MDP(states, actions, transition_model, reward_fn, p, hist, hwindow, discount_factor)
 Q = TabularQ(stock_agent.states, stock_agent.actions)
-Q, actions = Q_learn(stock_agent, Q, iters=2*len(hist[p:-1]), eps = epsilon) # setting eps = 0 means no epsilon-greedy
-
-# file output
+Q, actions = Q_learn(stock_agent, Q, iters=2*len(hist[p:-1])+1, eps = epsilon) # setting eps = 0 means no epsilon-greedy
 
 ### Text File Output for Readability ###
 

@@ -1,9 +1,4201 @@
 ---Results---
 
-Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 0.01, discount 1
+Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 1, reward (0.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 1, reward (0.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 1, reward (0.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 1, reward (0.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 1, reward (0.1, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.0005533013648100332
+
+Parameters of run: hwindow 1, reward (0.1, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.50018443378827
+Fraction of Purchases:  0.9970490593876798
+
+Parameters of run: hwindow 1, reward (0.1, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  0.9992622648469199
+
+Parameters of run: hwindow 1, reward (0.1, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.99963113242346
+
+Parameters of run: hwindow 1, reward (0.1, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.99963113242346
+
+Parameters of run: hwindow 1, reward (0.5, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.0005533013648100332
+
+Parameters of run: hwindow 1, reward (0.5, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.6145333825156769
+
+Parameters of run: hwindow 1, reward (0.5, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.50018443378827
+Fraction of Purchases:  0.9970490593876798
+
+Parameters of run: hwindow 1, reward (0.5, -1.0), epsilon 0, discount 1
 Accuracy Score:  0.5012910365178901
-Fraction of Purchases:  0.9948358539284397
+Fraction of Purchases:  0.9985245296938399
+
+Parameters of run: hwindow 1, reward (0.5, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5012910365178901
+Fraction of Purchases:  0.9992622648469199
+
+Parameters of run: hwindow 1, reward (1.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.0005533013648100332
+
+Parameters of run: hwindow 1, reward (1.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.4942825525636297
+Fraction of Purchases:  0.5986720767244559
+
+Parameters of run: hwindow 1, reward (1.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5016599040944301
+Fraction of Purchases:  0.9852452969383991
+
+Parameters of run: hwindow 1, reward (1.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.50018443378827
+Fraction of Purchases:  0.9970490593876798
+
+Parameters of run: hwindow 1, reward (1.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5012910365178901
+Fraction of Purchases:  0.9985245296938399
+
+Parameters of run: hwindow 1, reward (2.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.0005533013648100332
+
+Parameters of run: hwindow 1, reward (2.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.50110660272962
+Fraction of Purchases:  0.5309848764293619
+
+Parameters of run: hwindow 1, reward (2.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.9197713021025452
+
+Parameters of run: hwindow 1, reward (2.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5016599040944301
+Fraction of Purchases:  0.9852452969383991
+
+Parameters of run: hwindow 1, reward (2.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.50018443378827
+Fraction of Purchases:  0.9970490593876798
+
+Parameters of run: hwindow 1, reward (5.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.0005533013648100332
+
+Parameters of run: hwindow 1, reward (5.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5184433788270011
+Fraction of Purchases:  0.5427886388786426
+
+Parameters of run: hwindow 1, reward (5.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.4942825525636297
+Fraction of Purchases:  0.5986720767244559
+
+Parameters of run: hwindow 1, reward (5.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.6145333825156769
+
+Parameters of run: hwindow 1, reward (5.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.9789745481372187
+
+Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.9953891552932497
 
 Parameters of run: hwindow 1, reward (0.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  0.9955735890815197
+
+Parameters of run: hwindow 1, reward (0.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.9950202877167097
+
+Parameters of run: hwindow 1, reward (0.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49981556621173
+Fraction of Purchases:  0.9944669863518997
+
+Parameters of run: hwindow 1, reward (0.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  0.9955735890815197
+
+Parameters of run: hwindow 1, reward (0.1, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.010697159719660641
+
+Parameters of run: hwindow 1, reward (0.1, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5027665068240502
+Fraction of Purchases:  0.9929915160457395
+
+Parameters of run: hwindow 1, reward (0.1, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.50036886757654
+Fraction of Purchases:  0.9953891552932497
+
+Parameters of run: hwindow 1, reward (0.1, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5022132054592401
+Fraction of Purchases:  0.9950202877167097
+
+Parameters of run: hwindow 1, reward (0.1, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.9942825525636296
+
+Parameters of run: hwindow 1, reward (0.5, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49889339727037996
+Fraction of Purchases:  0.011619328661010698
+
+Parameters of run: hwindow 1, reward (0.5, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5059018812246403
+Fraction of Purchases:  0.7622648469199558
+
+Parameters of run: hwindow 1, reward (0.5, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5016599040944301
+Fraction of Purchases:  0.9937292511988196
+
+Parameters of run: hwindow 1, reward (0.5, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49981556621173
+Fraction of Purchases:  0.9929915160457395
+
+Parameters of run: hwindow 1, reward (0.5, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5014754703061601
+Fraction of Purchases:  0.9950202877167097
+
+Parameters of run: hwindow 1, reward (1.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.011434894872740686
+
+Parameters of run: hwindow 1, reward (1.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5042419771302102
+Fraction of Purchases:  0.5540390999631133
+
+Parameters of run: hwindow 1, reward (1.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5022132054592401
+Fraction of Purchases:  0.9776835116193286
+
+Parameters of run: hwindow 1, reward (1.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.9926226484691996
+
+Parameters of run: hwindow 1, reward (1.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5014754703061601
+Fraction of Purchases:  0.9953891552932497
+
+Parameters of run: hwindow 1, reward (2.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4987089634821099
+Fraction of Purchases:  0.008115086683880487
+
+Parameters of run: hwindow 1, reward (2.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5020287716709702
+Fraction of Purchases:  0.47067502766506825
+
+Parameters of run: hwindow 1, reward (2.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5046108447067503
+Fraction of Purchases:  0.8439690151235706
+
+Parameters of run: hwindow 1, reward (2.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5033198081888602
+Fraction of Purchases:  0.9769457764662486
+
+Parameters of run: hwindow 1, reward (2.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.9933603836222796
+
+Parameters of run: hwindow 1, reward (5.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.01014385835485061
+
+Parameters of run: hwindow 1, reward (5.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5036886757654002
+Fraction of Purchases:  0.39376613795647364
+
+Parameters of run: hwindow 1, reward (5.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.49520472150497974
+Fraction of Purchases:  0.5863150129103651
+
+Parameters of run: hwindow 1, reward (5.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5055330136481003
+Fraction of Purchases:  0.7696421984507562
+
+Parameters of run: hwindow 1, reward (5.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.50018443378827
+Fraction of Purchases:  0.9771302102545186
+
+Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.50110660272962
+Fraction of Purchases:  0.9717816303946883
+
+Parameters of run: hwindow 1, reward (0.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.4981556621172999
+Fraction of Purchases:  0.9747325710070085
+
+Parameters of run: hwindow 1, reward (0.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.49889339727037996
+Fraction of Purchases:  0.9762080413131685
+
+Parameters of run: hwindow 1, reward (0.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49723349317594984
+Fraction of Purchases:  0.9763924751014386
+
+Parameters of run: hwindow 1, reward (0.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  0.9763924751014386
+
+Parameters of run: hwindow 1, reward (0.1, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49704905938767985
+Fraction of Purchases:  0.03633345628919218
+
+Parameters of run: hwindow 1, reward (0.1, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.4979712283290299
+Fraction of Purchases:  0.9708594614533382
+
+Parameters of run: hwindow 1, reward (0.1, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5036886757654002
+Fraction of Purchases:  0.9747325710070085
+
+Parameters of run: hwindow 1, reward (0.1, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5031353744005902
+Fraction of Purchases:  0.9774990778310586
+
+Parameters of run: hwindow 1, reward (0.1, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5023976392475101
+Fraction of Purchases:  0.9756547399483585
+
+Parameters of run: hwindow 1, reward (0.5, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.0416820361490225
+
+Parameters of run: hwindow 1, reward (0.5, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5022132054592401
+Fraction of Purchases:  0.767060125414976
+
+Parameters of run: hwindow 1, reward (0.5, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.9752858723718185
+
+Parameters of run: hwindow 1, reward (0.5, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5051641460715603
+Fraction of Purchases:  0.9754703061600886
+
+Parameters of run: hwindow 1, reward (0.5, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.50036886757654
+Fraction of Purchases:  0.9754703061600886
+
+Parameters of run: hwindow 1, reward (1.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.036517890077462194
+
+Parameters of run: hwindow 1, reward (1.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5099594245665806
+Fraction of Purchases:  0.5700848395426042
+
+Parameters of run: hwindow 1, reward (1.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.49981556621173
+Fraction of Purchases:  0.9564736259682773
+
+Parameters of run: hwindow 1, reward (1.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49926226484691993
+Fraction of Purchases:  0.9747325710070085
+
+Parameters of run: hwindow 1, reward (1.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49963113242345997
+Fraction of Purchases:  0.9736259682773885
+
+Parameters of run: hwindow 1, reward (2.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.04315750645518259
+
+Parameters of run: hwindow 1, reward (2.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.4627443747694578
+
+Parameters of run: hwindow 1, reward (2.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5033198081888602
+Fraction of Purchases:  0.8415713758760605
+
+Parameters of run: hwindow 1, reward (2.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.50110660272962
+Fraction of Purchases:  0.9607156030984877
+
+Parameters of run: hwindow 1, reward (2.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4963113242345998
+Fraction of Purchases:  0.9736259682773885
+
+Parameters of run: hwindow 1, reward (5.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.04149760236075249
+
+Parameters of run: hwindow 1, reward (5.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.4985245296938399
+Fraction of Purchases:  0.27462191073404646
+
+Parameters of run: hwindow 1, reward (5.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.50036886757654
+Fraction of Purchases:  0.5859461453338252
+
+Parameters of run: hwindow 1, reward (5.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4942825525636297
+Fraction of Purchases:  0.7067502766506824
+
+Parameters of run: hwindow 1, reward (5.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5062707488011804
+Fraction of Purchases:  0.9356326078937661
+
+Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.50036886757654
+Fraction of Purchases:  0.949280708225747
+
+Parameters of run: hwindow 1, reward (0.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5023976392475101
+Fraction of Purchases:  0.9513094798967171
+
+Parameters of run: hwindow 1, reward (0.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.50036886757654
+Fraction of Purchases:  0.9478052379195868
+
+Parameters of run: hwindow 1, reward (0.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49723349317594984
+Fraction of Purchases:  0.9468830689782368
+
+Parameters of run: hwindow 1, reward (0.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4983400959055699
+Fraction of Purchases:  0.9424566580597565
+
+Parameters of run: hwindow 1, reward (0.1, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.50055330136481
+Fraction of Purchases:  0.07045370711914423
+
+Parameters of run: hwindow 1, reward (0.1, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5027665068240502
+Fraction of Purchases:  0.9417189229066765
+
+Parameters of run: hwindow 1, reward (0.1, -0.5), epsilon 0.1, discount 1
 Accuracy Score:  0.5007377351530801
-Fraction of Purchases:  0.9961268904463297
+Fraction of Purchases:  0.9485429730726669
+
+Parameters of run: hwindow 1, reward (0.1, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4979712283290299
+Fraction of Purchases:  0.9516783474732571
+
+Parameters of run: hwindow 1, reward (0.1, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5016599040944301
+Fraction of Purchases:  0.9479896717078569
+
+Parameters of run: hwindow 1, reward (0.5, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4968646255994098
+Fraction of Purchases:  0.06565842862412394
+
+Parameters of run: hwindow 1, reward (0.5, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.4979712283290299
+Fraction of Purchases:  0.6942087790483217
+
+Parameters of run: hwindow 1, reward (0.5, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5049797122832903
+Fraction of Purchases:  0.950940612320177
+
+Parameters of run: hwindow 1, reward (0.5, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4961268904463298
+Fraction of Purchases:  0.9454075986720767
+
+Parameters of run: hwindow 1, reward (0.5, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5014754703061601
+Fraction of Purchases:  0.9507561785319071
+
+Parameters of run: hwindow 1, reward (1.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4974179269642198
+Fraction of Purchases:  0.06399852452969385
+
+Parameters of run: hwindow 1, reward (1.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5040575433419402
+Fraction of Purchases:  0.5593876798229436
+
+Parameters of run: hwindow 1, reward (1.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5047952784950203
+Fraction of Purchases:  0.9286241239395057
+
+Parameters of run: hwindow 1, reward (1.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5014754703061601
+Fraction of Purchases:  0.949280708225747
+
+Parameters of run: hwindow 1, reward (1.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.9428255256362966
+
+Parameters of run: hwindow 1, reward (2.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5023976392475101
+Fraction of Purchases:  0.06971597196606419
+
+Parameters of run: hwindow 1, reward (2.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5029509406123202
+Fraction of Purchases:  0.45573589081519733
+
+Parameters of run: hwindow 1, reward (2.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5042419771302102
+Fraction of Purchases:  0.8045001844337882
+
+Parameters of run: hwindow 1, reward (2.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4963113242345998
+Fraction of Purchases:  0.932681667281446
+
+Parameters of run: hwindow 1, reward (2.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5053485798598303
+Fraction of Purchases:  0.9531538177794172
+
+Parameters of run: hwindow 1, reward (5.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5051641460715603
+Fraction of Purchases:  0.07949096274437477
+
+Parameters of run: hwindow 1, reward (5.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5007377351530801
+Fraction of Purchases:  0.26208041313168573
+
+Parameters of run: hwindow 1, reward (5.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5134636665437108
+Fraction of Purchases:  0.5706381409074143
+
+Parameters of run: hwindow 1, reward (5.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5023976392475101
+Fraction of Purchases:  0.7030616008852821
+
+Parameters of run: hwindow 1, reward (5.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5099594245665806
+Fraction of Purchases:  0.9068609369236444
+
+Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4961268904463298
+Fraction of Purchases:  0.9074142382884545
+
+Parameters of run: hwindow 1, reward (0.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5062707488011804
+Fraction of Purchases:  0.899852452969384
+
+Parameters of run: hwindow 1, reward (0.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5046108447067503
+Fraction of Purchases:  0.8974548137218739
+
+Parameters of run: hwindow 1, reward (0.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5042419771302102
+Fraction of Purchases:  0.8985614164514939
+
+Parameters of run: hwindow 1, reward (0.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.900036886757654
+
+Parameters of run: hwindow 1, reward (0.1, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4981556621172999
+Fraction of Purchases:  0.1285503504241977
+
+Parameters of run: hwindow 1, reward (0.1, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.4935448174105496
+Fraction of Purchases:  0.898930284028034
+
+Parameters of run: hwindow 1, reward (0.1, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.4937292511988196
+Fraction of Purchases:  0.900221320545924
+
+Parameters of run: hwindow 1, reward (0.1, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4983400959055699
+Fraction of Purchases:  0.901512357063814
+
+Parameters of run: hwindow 1, reward (0.1, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.9011434894872741
+
+Parameters of run: hwindow 1, reward (0.5, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5007377351530801
+Fraction of Purchases:  0.12965695315381778
+
+Parameters of run: hwindow 1, reward (0.5, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5081150866838805
+Fraction of Purchases:  0.7043526374031722
+
+Parameters of run: hwindow 1, reward (0.5, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.50018443378827
+Fraction of Purchases:  0.8967170785687938
+
+Parameters of run: hwindow 1, reward (0.5, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49907783105864995
+Fraction of Purchases:  0.8978236812984138
+
+Parameters of run: hwindow 1, reward (0.5, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49465142014016966
+Fraction of Purchases:  0.9037255625230542
+
+Parameters of run: hwindow 1, reward (1.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5009221689413501
+Fraction of Purchases:  0.11434894872740686
+
+Parameters of run: hwindow 1, reward (1.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5136481003319808
+Fraction of Purchases:  0.5523791958686831
+
+Parameters of run: hwindow 1, reward (1.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.49963113242345997
+Fraction of Purchases:  0.8895241608262634
+
+Parameters of run: hwindow 1, reward (1.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4979712283290299
+Fraction of Purchases:  0.8941350055330136
+
+Parameters of run: hwindow 1, reward (1.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5064551825894504
+Fraction of Purchases:  0.9033566949465142
+
+Parameters of run: hwindow 1, reward (2.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49907783105864995
+Fraction of Purchases:  0.12873478421246773
+
+Parameters of run: hwindow 1, reward (2.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.4937292511988196
+Fraction of Purchases:  0.41405385466617484
+
+Parameters of run: hwindow 1, reward (2.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5044264109184803
+Fraction of Purchases:  0.7571007008483954
+
+Parameters of run: hwindow 1, reward (2.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5027665068240502
+Fraction of Purchases:  0.8856510512725931
+
+Parameters of run: hwindow 1, reward (2.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49704905938767985
+Fraction of Purchases:  0.899852452969384
+
+Parameters of run: hwindow 1, reward (5.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.50110660272962
+Fraction of Purchases:  0.12633714496495757
+
+Parameters of run: hwindow 1, reward (5.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5007377351530801
+Fraction of Purchases:  0.29232755440796754
+
+Parameters of run: hwindow 1, reward (5.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.49963113242345997
+Fraction of Purchases:  0.5553301364810033
+
+Parameters of run: hwindow 1, reward (5.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4983400959055699
+Fraction of Purchases:  0.7226115824419034
+
+Parameters of run: hwindow 1, reward (5.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.8572482478790114
+
+Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49225378089265953
+Fraction of Purchases:  0.7419771302102545
+
+Parameters of run: hwindow 1, reward (0.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4944669863518997
+Fraction of Purchases:  0.7548874953891553
+
+Parameters of run: hwindow 1, reward (0.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.4979712283290299
+Fraction of Purchases:  0.7473257100700849
+
+Parameters of run: hwindow 1, reward (0.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49206934710438954
+Fraction of Purchases:  0.7366285503504242
+
+Parameters of run: hwindow 1, reward (0.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5023976392475101
+Fraction of Purchases:  0.7480634452231649
+
+Parameters of run: hwindow 1, reward (0.1, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4950202877167097
+Fraction of Purchases:  0.27406860936923644
+
+Parameters of run: hwindow 1, reward (0.1, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5038731095536703
+Fraction of Purchases:  0.7458502397639247
+
+Parameters of run: hwindow 1, reward (0.1, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5051641460715603
+Fraction of Purchases:  0.7589450387310955
+
+Parameters of run: hwindow 1, reward (0.1, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4961268904463298
+Fraction of Purchases:  0.749170047952785
+
+Parameters of run: hwindow 1, reward (0.1, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4905938767982294
+Fraction of Purchases:  0.7410549612689045
+
+Parameters of run: hwindow 1, reward (0.5, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5112504610844707
+Fraction of Purchases:  0.2685355957211361
+
+Parameters of run: hwindow 1, reward (0.5, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5035042419771302
+Fraction of Purchases:  0.6403541128734784
+
+Parameters of run: hwindow 1, reward (0.5, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.4981556621172999
+Fraction of Purchases:  0.7593139063076355
+
+Parameters of run: hwindow 1, reward (0.5, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5025820730357802
+Fraction of Purchases:  0.7530431575064552
+
+Parameters of run: hwindow 1, reward (0.5, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5066396163777204
+Fraction of Purchases:  0.7530431575064552
+
+Parameters of run: hwindow 1, reward (1.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.2814459609000369
+
+Parameters of run: hwindow 1, reward (1.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5022132054592401
+Fraction of Purchases:  0.5269273330874216
+
+Parameters of run: hwindow 1, reward (1.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5042419771302102
+Fraction of Purchases:  0.7358908151973441
+
+Parameters of run: hwindow 1, reward (1.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49963113242345997
+Fraction of Purchases:  0.7438214680929546
+
+Parameters of run: hwindow 1, reward (1.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49225378089265953
+Fraction of Purchases:  0.748616746587975
+
+Parameters of run: hwindow 1, reward (2.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49151604573957947
+Fraction of Purchases:  0.2794171892290668
+
+Parameters of run: hwindow 1, reward (2.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4985245296938399
+Fraction of Purchases:  0.4324972334931759
+
+Parameters of run: hwindow 1, reward (2.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5110660272962007
+Fraction of Purchases:  0.66525267428993
+
+Parameters of run: hwindow 1, reward (2.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5046108447067503
+Fraction of Purchases:  0.7436370343046846
+
+Parameters of run: hwindow 1, reward (2.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49649575802286977
+Fraction of Purchases:  0.7451125046108447
+
+Parameters of run: hwindow 1, reward (5.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5018443378827001
+Fraction of Purchases:  0.2650313537440059
+
+Parameters of run: hwindow 1, reward (5.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5105127259313906
+Fraction of Purchases:  0.33825156768720027
+
+Parameters of run: hwindow 1, reward (5.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5035042419771302
+Fraction of Purchases:  0.532275912947252
+
+Parameters of run: hwindow 1, reward (5.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5012910365178901
+Fraction of Purchases:  0.6429361859092586
+
+Parameters of run: hwindow 1, reward (5.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4898561416451494
+Fraction of Purchases:  0.7240870527480634
+
+Parameters of run: hwindow 1, reward (0.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5075617853190705
+Fraction of Purchases:  0.5068240501659904
+
+Parameters of run: hwindow 1, reward (0.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5094061232017706
+Fraction of Purchases:  0.5116193286610107
+
+Parameters of run: hwindow 1, reward (0.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.49262264846919956
+Fraction of Purchases:  0.4933603836222796
+
+Parameters of run: hwindow 1, reward (0.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5057174474363704
+Fraction of Purchases:  0.4968646255994098
+
+Parameters of run: hwindow 1, reward (0.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4933603836222796
+Fraction of Purchases:  0.50036886757654
+
+Parameters of run: hwindow 1, reward (0.1, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5075617853190705
+Fraction of Purchases:  0.49760236075248987
+
+Parameters of run: hwindow 1, reward (0.1, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5018443378827001
+Fraction of Purchases:  0.4933603836222796
+
+Parameters of run: hwindow 1, reward (0.1, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.50036886757654
+Fraction of Purchases:  0.5084839542604205
+
+Parameters of run: hwindow 1, reward (0.1, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49944669863519
+Fraction of Purchases:  0.49575802286978976
+
+Parameters of run: hwindow 1, reward (0.1, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.48967170785687936
+Fraction of Purchases:  0.49778679454075986
+
+Parameters of run: hwindow 1, reward (0.5, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5068240501659904
+Fraction of Purchases:  0.49465142014016966
+
+Parameters of run: hwindow 1, reward (0.5, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.4846919955735891
+Fraction of Purchases:  0.49760236075248987
+
+Parameters of run: hwindow 1, reward (0.5, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4981556621172999
+Fraction of Purchases:  0.49704905938767985
+
+Parameters of run: hwindow 1, reward (0.5, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49907783105864995
+Fraction of Purchases:  0.5035042419771302
+
+Parameters of run: hwindow 1, reward (0.5, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5088528218369606
+Fraction of Purchases:  0.4966801918111398
+
+Parameters of run: hwindow 1, reward (1.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5033198081888602
+Fraction of Purchases:  0.49778679454075986
+
+Parameters of run: hwindow 1, reward (1.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.4981556621172999
+Fraction of Purchases:  0.49889339727037996
+
+Parameters of run: hwindow 1, reward (1.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5049797122832903
+Fraction of Purchases:  0.5035042419771302
+
+Parameters of run: hwindow 1, reward (1.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4942825525636297
+Fraction of Purchases:  0.49944669863519
+
+Parameters of run: hwindow 1, reward (1.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5031353744005902
+Fraction of Purchases:  0.4887495389155293
+
+Parameters of run: hwindow 1, reward (2.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5046108447067503
+Fraction of Purchases:  0.4935448174105496
+
+Parameters of run: hwindow 1, reward (2.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5044264109184803
+Fraction of Purchases:  0.49889339727037996
+
+Parameters of run: hwindow 1, reward (2.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4981556621172999
+Fraction of Purchases:  0.50036886757654
+
+Parameters of run: hwindow 1, reward (2.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5014754703061601
+Fraction of Purchases:  0.5077462191073404
+
+Parameters of run: hwindow 1, reward (2.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5086683880486905
+Fraction of Purchases:  0.5046108447067503
+
+Parameters of run: hwindow 1, reward (5.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5027665068240502
+Fraction of Purchases:  0.5020287716709702
+
+Parameters of run: hwindow 1, reward (5.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.4885651051272593
+Fraction of Purchases:  0.5055330136481003
+
+Parameters of run: hwindow 1, reward (5.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4968646255994098
+Fraction of Purchases:  0.5049797122832903
+
+Parameters of run: hwindow 1, reward (5.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4968646255994098
+Fraction of Purchases:  0.4905938767982294
+
+Parameters of run: hwindow 1, reward (5.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49778679454075986
+Fraction of Purchases:  0.49594245665805975
+
+Parameters of run: hwindow 2, reward (0.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 2, reward (0.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 2, reward (0.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 2, reward (0.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 2, reward (0.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 2, reward (0.1, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4988009592326139
+Fraction of Purchases:  0.0009223390518354548
+
+Parameters of run: hwindow 2, reward (0.1, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.9935436266371518
+
+Parameters of run: hwindow 2, reward (0.1, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5002767017155506
+Fraction of Purchases:  0.9985242575170633
+
+Parameters of run: hwindow 2, reward (0.1, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  0.9992621287585316
+
+Parameters of run: hwindow 2, reward (0.1, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  0.9992621287585316
+
+Parameters of run: hwindow 2, reward (0.5, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4988009592326139
+Fraction of Purchases:  0.0009223390518354548
+
+Parameters of run: hwindow 2, reward (0.5, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.49824755580151264
+Fraction of Purchases:  0.541597491237779
+
+Parameters of run: hwindow 2, reward (0.5, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.9935436266371518
+
+Parameters of run: hwindow 2, reward (0.5, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.4993543626637152
+Fraction of Purchases:  0.9968640472237594
+
+Parameters of run: hwindow 2, reward (0.5, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  0.9985242575170633
+
+Parameters of run: hwindow 2, reward (1.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4988009592326139
+Fraction of Purchases:  0.0009223390518354548
+
+Parameters of run: hwindow 2, reward (1.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5034126544917912
+Fraction of Purchases:  0.4235380926028408
+
+Parameters of run: hwindow 2, reward (1.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.4991698948533481
+Fraction of Purchases:  0.9752813134108098
+
+Parameters of run: hwindow 2, reward (1.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.9935436266371518
+
+Parameters of run: hwindow 2, reward (1.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.4993543626637152
+Fraction of Purchases:  0.9968640472237594
+
+Parameters of run: hwindow 2, reward (2.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4988009592326139
+Fraction of Purchases:  0.0009223390518354548
+
+Parameters of run: hwindow 2, reward (2.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.49806308799114557
+Fraction of Purchases:  0.3484596937834348
+
+Parameters of run: hwindow 2, reward (2.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.49732521674967717
+Fraction of Purchases:  0.8166389964951116
+
+Parameters of run: hwindow 2, reward (2.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.4991698948533481
+Fraction of Purchases:  0.9752813134108098
+
+Parameters of run: hwindow 2, reward (2.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.9935436266371518
+
+Parameters of run: hwindow 2, reward (5.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4988009592326139
+Fraction of Purchases:  0.0009223390518354548
+
+Parameters of run: hwindow 2, reward (5.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  0.18280760007378713
+
+Parameters of run: hwindow 2, reward (5.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5034126544917912
+Fraction of Purchases:  0.4235380926028408
+
+Parameters of run: hwindow 2, reward (5.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.49824755580151264
+Fraction of Purchases:  0.541597491237779
+
+Parameters of run: hwindow 2, reward (5.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5039660579228925
+Fraction of Purchases:  0.8882125069175429
+
+Parameters of run: hwindow 2, reward (0.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5017524441984874
+Fraction of Purchases:  0.9940970300682531
+
+Parameters of run: hwindow 2, reward (0.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.49953883047408226
+Fraction of Purchases:  0.9937280944475189
+
+Parameters of run: hwindow 2, reward (0.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.4993543626637152
+Fraction of Purchases:  0.9950193691200886
+
+Parameters of run: hwindow 2, reward (0.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.9928057553956835
+
+Parameters of run: hwindow 2, reward (0.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.9946504334993543
+
+Parameters of run: hwindow 2, reward (0.1, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5013835085777532
+Fraction of Purchases:  0.01973805570927873
+
+Parameters of run: hwindow 2, reward (0.1, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.9905921416712784
+
+Parameters of run: hwindow 2, reward (0.1, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5011990407673861
+Fraction of Purchases:  0.993912562257886
+
+Parameters of run: hwindow 2, reward (0.1, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4991698948533481
+Fraction of Purchases:  0.9937280944475189
+
+Parameters of run: hwindow 2, reward (0.1, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5008301051466519
+Fraction of Purchases:  0.9942814978786202
+
+Parameters of run: hwindow 2, reward (0.5, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49787862018077844
+Fraction of Purchases:  0.006271905552481092
+
+Parameters of run: hwindow 2, reward (0.5, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.513189448441247
+Fraction of Purchases:  0.7240361556908319
+
+Parameters of run: hwindow 2, reward (0.5, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.49861649142224684
+Fraction of Purchases:  0.9902232060505441
+
+Parameters of run: hwindow 2, reward (0.5, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4997232982844494
+Fraction of Purchases:  0.9920678841542151
+
+Parameters of run: hwindow 2, reward (0.5, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5008301051466519
+Fraction of Purchases:  0.9935436266371518
+
+Parameters of run: hwindow 2, reward (1.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49861649142224684
+Fraction of Purchases:  0.016971038553772366
+
+Parameters of run: hwindow 2, reward (1.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.4997232982844494
+Fraction of Purchases:  0.40029514849658737
+
+Parameters of run: hwindow 2, reward (1.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5019369120088545
+Fraction of Purchases:  0.9193875668695812
+
+Parameters of run: hwindow 2, reward (1.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4993543626637152
+Fraction of Purchases:  0.98985427042981
+
+Parameters of run: hwindow 2, reward (1.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5008301051466519
+Fraction of Purchases:  0.9931746910164176
+
+Parameters of run: hwindow 2, reward (2.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49769415237041137
+Fraction of Purchases:  0.013466150156797639
+
+Parameters of run: hwindow 2, reward (2.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5013835085777532
+Fraction of Purchases:  0.2975465781221177
+
+Parameters of run: hwindow 2, reward (2.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5157719977863863
+Fraction of Purchases:  0.7354731599335916
+
+Parameters of run: hwindow 2, reward (2.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49787862018077844
+Fraction of Purchases:  0.9496402877697842
+
+Parameters of run: hwindow 2, reward (2.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.98985427042981
+
+Parameters of run: hwindow 2, reward (5.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49861649142224684
+Fraction of Purchases:  0.012543811104962183
+
+Parameters of run: hwindow 2, reward (5.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5024903154399557
+Fraction of Purchases:  0.14038000368935621
+
+Parameters of run: hwindow 2, reward (5.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5181700793211584
+Fraction of Purchases:  0.5460247186865892
+
+Parameters of run: hwindow 2, reward (5.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.51300498063088
+Fraction of Purchases:  0.6456373362848183
+
+Parameters of run: hwindow 2, reward (5.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4984320236118797
+Fraction of Purchases:  0.8369304556354916
+
+Parameters of run: hwindow 2, reward (0.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5041505257332596
+Fraction of Purchases:  0.9765725880833794
+
+Parameters of run: hwindow 2, reward (0.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5017524441984874
+Fraction of Purchases:  0.9734366353071389
+
+Parameters of run: hwindow 2, reward (0.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.9762036524626453
+
+Parameters of run: hwindow 2, reward (0.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5011990407673861
+Fraction of Purchases:  0.9747279099797086
+
+Parameters of run: hwindow 2, reward (0.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5021213798192216
+Fraction of Purchases:  0.9786017339974175
+
+Parameters of run: hwindow 2, reward (0.1, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5037815901125253
+Fraction of Purchases:  0.04537908135030437
+
+Parameters of run: hwindow 2, reward (0.1, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5015679763881202
+Fraction of Purchases:  0.9754657812211769
+
+Parameters of run: hwindow 2, reward (0.1, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5008301051466519
+Fraction of Purchases:  0.9732521674967718
+
+Parameters of run: hwindow 2, reward (0.1, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4965873455082088
+Fraction of Purchases:  0.9726987640656706
+
+Parameters of run: hwindow 2, reward (0.1, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.498985427042981
+Fraction of Purchases:  0.9762036524626453
+
+Parameters of run: hwindow 2, reward (0.5, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  0.0367090942630511
+
+Parameters of run: hwindow 2, reward (0.5, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5222283711492345
+Fraction of Purchases:  0.6533849843202362
+
+Parameters of run: hwindow 2, reward (0.5, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5008301051466519
+Fraction of Purchases:  0.9717764250138351
+
+Parameters of run: hwindow 2, reward (0.5, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5024903154399557
+Fraction of Purchases:  0.9712230215827338
+
+Parameters of run: hwindow 2, reward (0.5, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49990776609481646
+Fraction of Purchases:  0.9734366353071389
+
+Parameters of run: hwindow 2, reward (1.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49474266740453793
+Fraction of Purchases:  0.043718871057000556
+
+Parameters of run: hwindow 2, reward (1.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5115292381479432
+Fraction of Purchases:  0.48773289061058844
+
+Parameters of run: hwindow 2, reward (1.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5039660579228925
+Fraction of Purchases:  0.9332226526471131
+
+Parameters of run: hwindow 2, reward (1.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5017524441984874
+Fraction of Purchases:  0.9682715366168604
+
+Parameters of run: hwindow 2, reward (1.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.501014572957019
+Fraction of Purchases:  0.9723298284449363
+
+Parameters of run: hwindow 2, reward (2.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49474266740453793
+Fraction of Purchases:  0.034864416159380185
+
+Parameters of run: hwindow 2, reward (2.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.490868843386829
+Fraction of Purchases:  0.26710938941154766
+
+Parameters of run: hwindow 2, reward (2.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5089466888028039
+Fraction of Purchases:  0.748570374469655
+
+Parameters of run: hwindow 2, reward (2.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.505072864785095
+Fraction of Purchases:  0.9073971591957204
+
+Parameters of run: hwindow 2, reward (2.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49861649142224684
+Fraction of Purchases:  0.9673491975650249
+
+Parameters of run: hwindow 2, reward (5.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5026747832503228
+Fraction of Purchases:  0.04353440324663346
+
+Parameters of run: hwindow 2, reward (5.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.498985427042981
+Fraction of Purchases:  0.1567976388120273
+
+Parameters of run: hwindow 2, reward (5.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5056262682161963
+Fraction of Purchases:  0.43128574063825864
+
+Parameters of run: hwindow 2, reward (5.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5189079505626268
+Fraction of Purchases:  0.6747832503228187
+
+Parameters of run: hwindow 2, reward (5.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.505072864785095
+Fraction of Purchases:  0.8310274857037447
+
+Parameters of run: hwindow 2, reward (0.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5023058476295886
+Fraction of Purchases:  0.9474266740453791
+
+Parameters of run: hwindow 2, reward (0.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.49861649142224684
+Fraction of Purchases:  0.9514849658734551
+
+Parameters of run: hwindow 2, reward (0.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.49640287769784175
+Fraction of Purchases:  0.9503781590112526
+
+Parameters of run: hwindow 2, reward (0.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5004611695259177
+Fraction of Purchases:  0.9511160302527208
+
+Parameters of run: hwindow 2, reward (0.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5008301051466519
+Fraction of Purchases:  0.9566500645637336
+
+Parameters of run: hwindow 2, reward (0.1, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4975096845600443
+Fraction of Purchases:  0.06788415421508946
+
+Parameters of run: hwindow 2, reward (0.1, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5002767017155506
+Fraction of Purchases:  0.9490868843386829
+
+Parameters of run: hwindow 2, reward (0.1, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.4997232982844494
+Fraction of Purchases:  0.9514849658734551
+
+Parameters of run: hwindow 2, reward (0.1, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5019369120088545
+Fraction of Purchases:  0.9503781590112526
+
+Parameters of run: hwindow 2, reward (0.1, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5008301051466519
+Fraction of Purchases:  0.945213060320974
+
+Parameters of run: hwindow 2, reward (0.5, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4991698948533481
+Fraction of Purchases:  0.06991330012912747
+
+Parameters of run: hwindow 2, reward (0.5, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5124515771997786
+Fraction of Purchases:  0.6281128942999447
+
+Parameters of run: hwindow 2, reward (0.5, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5024903154399557
+Fraction of Purchases:  0.9479800774764804
+
+Parameters of run: hwindow 2, reward (0.5, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5023058476295886
+Fraction of Purchases:  0.9540675152185943
+
+Parameters of run: hwindow 2, reward (0.5, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5013835085777532
+Fraction of Purchases:  0.945397528131341
+
+Parameters of run: hwindow 2, reward (1.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4945581995941708
+Fraction of Purchases:  0.06751521859435529
+
+Parameters of run: hwindow 2, reward (1.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5095000922339051
+Fraction of Purchases:  0.4702084486257148
+
+Parameters of run: hwindow 2, reward (1.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.49990776609481646
+Fraction of Purchases:  0.9018631248847077
+
+Parameters of run: hwindow 2, reward (1.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5035971223021583
+Fraction of Purchases:  0.9450285925106069
+
+Parameters of run: hwindow 2, reward (1.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5041505257332596
+Fraction of Purchases:  0.9485334809075816
+
+Parameters of run: hwindow 2, reward (2.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4971407489393101
+Fraction of Purchases:  0.06493266924921601
+
+Parameters of run: hwindow 2, reward (2.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.49787862018077844
+Fraction of Purchases:  0.31654676258992803
+
+Parameters of run: hwindow 2, reward (2.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.50285925106069
+Fraction of Purchases:  0.6912008854454897
+
+Parameters of run: hwindow 2, reward (2.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4984320236118797
+Fraction of Purchases:  0.9103486441615938
+
+Parameters of run: hwindow 2, reward (2.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4988009592326139
+Fraction of Purchases:  0.9479800774764804
+
+Parameters of run: hwindow 2, reward (5.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4971407489393101
+Fraction of Purchases:  0.06567054049068438
+
+Parameters of run: hwindow 2, reward (5.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5047039291643608
+Fraction of Purchases:  0.18391440693598968
+
+Parameters of run: hwindow 2, reward (5.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.4965873455082088
+Fraction of Purchases:  0.41265449179118247
+
+Parameters of run: hwindow 2, reward (5.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5102379634753735
+Fraction of Purchases:  0.6295886367828814
+
+Parameters of run: hwindow 2, reward (5.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4927135214904999
+Fraction of Purchases:  0.8496587345508209
+
+Parameters of run: hwindow 2, reward (0.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49382032835270245
+Fraction of Purchases:  0.8998339789706696
+
+Parameters of run: hwindow 2, reward (0.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5043349935436267
+Fraction of Purchases:  0.9073971591957204
+
+Parameters of run: hwindow 2, reward (0.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.505072864785095
+Fraction of Purchases:  0.9029699317469102
+
+Parameters of run: hwindow 2, reward (0.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5004611695259177
+Fraction of Purchases:  0.902785463936543
+
+Parameters of run: hwindow 2, reward (0.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49806308799114557
+Fraction of Purchases:  0.8978048330566316
+
+Parameters of run: hwindow 2, reward (0.1, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5076554141302343
+Fraction of Purchases:  0.13004980630879912
+
+Parameters of run: hwindow 2, reward (0.1, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.49861649142224684
+Fraction of Purchases:  0.8917173953145177
+
+Parameters of run: hwindow 2, reward (0.1, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.4954805386460063
+Fraction of Purchases:  0.8981737686773658
+
+Parameters of run: hwindow 2, reward (0.1, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49123777900756316
+Fraction of Purchases:  0.8972514296255304
+
+Parameters of run: hwindow 2, reward (0.1, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5008301051466519
+Fraction of Purchases:  0.9064748201438849
+
+Parameters of run: hwindow 2, reward (0.5, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4958494742667405
+Fraction of Purchases:  0.12156428703191294
+
+Parameters of run: hwindow 2, reward (0.5, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5032281866814241
+Fraction of Purchases:  0.624792473713337
+
+Parameters of run: hwindow 2, reward (0.5, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5021213798192216
+Fraction of Purchases:  0.8966980261944291
+
+Parameters of run: hwindow 2, reward (0.5, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.501014572957019
+Fraction of Purchases:  0.8985427042981
+
+Parameters of run: hwindow 2, reward (0.5, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4997232982844494
+Fraction of Purchases:  0.8950378159011253
+
+Parameters of run: hwindow 2, reward (1.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4965873455082088
+Fraction of Purchases:  0.12968087068806494
+
+Parameters of run: hwindow 2, reward (1.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5078398819406014
+Fraction of Purchases:  0.4574801697103855
+
+Parameters of run: hwindow 2, reward (1.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.4997232982844494
+Fraction of Purchases:  0.8677365799667958
+
+Parameters of run: hwindow 2, reward (1.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5059952038369304
+Fraction of Purchases:  0.8957756871425936
+
+Parameters of run: hwindow 2, reward (1.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4954805386460063
+Fraction of Purchases:  0.8937465412285556
+
+Parameters of run: hwindow 2, reward (2.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.503043718871057
+Fraction of Purchases:  0.12396236856668512
+
+Parameters of run: hwindow 2, reward (2.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.4975096845600443
+Fraction of Purchases:  0.3567607452499539
+
+Parameters of run: hwindow 2, reward (2.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5069175428887659
+Fraction of Purchases:  0.6930455635491607
+
+Parameters of run: hwindow 2, reward (2.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5032281866814241
+Fraction of Purchases:  0.874192953329644
+
+Parameters of run: hwindow 2, reward (2.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5015679763881202
+Fraction of Purchases:  0.900571850212138
+
+Parameters of run: hwindow 2, reward (5.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49566500645637335
+Fraction of Purchases:  0.11437004242759638
+
+Parameters of run: hwindow 2, reward (5.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5013835085777532
+Fraction of Purchases:  0.23335178011437005
+
+Parameters of run: hwindow 2, reward (5.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5118981737686774
+Fraction of Purchases:  0.4866260837483859
+
+Parameters of run: hwindow 2, reward (5.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5039660579228925
+Fraction of Purchases:  0.6380741560597676
+
+Parameters of run: hwindow 2, reward (5.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4991698948533481
+Fraction of Purchases:  0.8077845415974912
+
+Parameters of run: hwindow 2, reward (0.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4993543626637152
+Fraction of Purchases:  0.758531636229478
+
+Parameters of run: hwindow 2, reward (0.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4988009592326139
+Fraction of Purchases:  0.752444198487364
+
+Parameters of run: hwindow 2, reward (0.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.4904999077660948
+Fraction of Purchases:  0.7614831211953514
+
+Parameters of run: hwindow 2, reward (0.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5163254012174876
+Fraction of Purchases:  0.7589005718502121
+
+Parameters of run: hwindow 2, reward (0.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5013835085777532
+Fraction of Purchases:  0.7439586792104778
+
+Parameters of run: hwindow 2, reward (0.1, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5043349935436267
+Fraction of Purchases:  0.2669249216011806
+
+Parameters of run: hwindow 2, reward (0.1, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.488839697472791
+Fraction of Purchases:  0.7373178380372625
+
+Parameters of run: hwindow 2, reward (0.1, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5078398819406014
+Fraction of Purchases:  0.7463567607452499
+
+Parameters of run: hwindow 2, reward (0.1, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5011990407673861
+Fraction of Purchases:  0.7448810182623132
+
+Parameters of run: hwindow 2, reward (0.1, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49345139273196825
+Fraction of Purchases:  0.7496771813318576
+
+Parameters of run: hwindow 2, reward (0.5, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5078398819406014
+Fraction of Purchases:  0.2822357498616491
+
+Parameters of run: hwindow 2, reward (0.5, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5032281866814241
+Fraction of Purchases:  0.6104039845047039
+
+Parameters of run: hwindow 2, reward (0.5, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5026747832503228
+Fraction of Purchases:  0.7456188895037816
+
+Parameters of run: hwindow 2, reward (0.5, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.496956281128943
+Fraction of Purchases:  0.7399003873824018
+
+Parameters of run: hwindow 2, reward (0.5, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49123777900756316
+Fraction of Purchases:  0.7493082457111234
+
+Parameters of run: hwindow 2, reward (1.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5026747832503228
+Fraction of Purchases:  0.28371149234458587
+
+Parameters of run: hwindow 2, reward (1.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5115292381479432
+Fraction of Purchases:  0.4951116030252721
+
+Parameters of run: hwindow 2, reward (1.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.49566500645637335
+Fraction of Purchases:  0.7334440140195536
+
+Parameters of run: hwindow 2, reward (1.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49806308799114557
+Fraction of Purchases:  0.7446965504519462
+
+Parameters of run: hwindow 2, reward (1.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.503043718871057
+Fraction of Purchases:  0.7400848551927689
+
+Parameters of run: hwindow 2, reward (2.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5013835085777532
+Fraction of Purchases:  0.2746725696365984
+
+Parameters of run: hwindow 2, reward (2.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4967718133185759
+Fraction of Purchases:  0.4161593801881572
+
+Parameters of run: hwindow 2, reward (2.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5104224312857406
+Fraction of Purchases:  0.6463752075262866
+
+Parameters of run: hwindow 2, reward (2.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5067330750783988
+Fraction of Purchases:  0.7430363401586423
+
+Parameters of run: hwindow 2, reward (2.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5000922339051835
+Fraction of Purchases:  0.7563180225050729
+
+Parameters of run: hwindow 2, reward (5.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49990776609481646
+Fraction of Purchases:  0.2743036340158642
+
+Parameters of run: hwindow 2, reward (5.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.49197565024903156
+Fraction of Purchases:  0.3523335178011437
+
+Parameters of run: hwindow 2, reward (5.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.49566500645637335
+Fraction of Purchases:  0.5043349935436267
+
+Parameters of run: hwindow 2, reward (5.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49732521674967717
+Fraction of Purchases:  0.5890057185021214
+
+Parameters of run: hwindow 2, reward (5.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.511160302527209
+Fraction of Purchases:  0.722007009776794
+
+Parameters of run: hwindow 2, reward (0.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5006456373362849
+Fraction of Purchases:  0.5056262682161963
+
+Parameters of run: hwindow 2, reward (0.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.4988009592326139
+Fraction of Purchases:  0.4879173584209555
+
+Parameters of run: hwindow 2, reward (0.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4940047961630695
+Fraction of Purchases:  0.5015679763881202
+
+Parameters of run: hwindow 2, reward (0.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5043349935436267
+Fraction of Purchases:  0.49640287769784175
+
+Parameters of run: hwindow 2, reward (0.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49640287769784175
+Fraction of Purchases:  0.49216011805939863
+
+Parameters of run: hwindow 2, reward (0.1, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4943737317838037
+Fraction of Purchases:  0.5093156244235381
+
+Parameters of run: hwindow 2, reward (0.1, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5045194613539937
+Fraction of Purchases:  0.5083932853717026
+
+Parameters of run: hwindow 2, reward (0.1, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.49474266740453793
+Fraction of Purchases:  0.49345139273196825
+
+Parameters of run: hwindow 2, reward (0.1, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.509131156613171
+Fraction of Purchases:  0.4930824571112341
+
+Parameters of run: hwindow 2, reward (0.1, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5096845600442723
+Fraction of Purchases:  0.5035971223021583
+
+Parameters of run: hwindow 2, reward (0.5, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49216011805939863
+Fraction of Purchases:  0.5067330750783988
+
+Parameters of run: hwindow 2, reward (0.5, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5039660579228925
+Fraction of Purchases:  0.5041505257332596
+
+Parameters of run: hwindow 2, reward (0.5, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5059952038369304
+Fraction of Purchases:  0.5061796716472975
+
+Parameters of run: hwindow 2, reward (0.5, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5047039291643608
+Fraction of Purchases:  0.49824755580151264
+
+Parameters of run: hwindow 2, reward (0.5, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49787862018077844
+Fraction of Purchases:  0.48994650433499354
+
+Parameters of run: hwindow 2, reward (1.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4971407489393101
+Fraction of Purchases:  0.513189448441247
+
+Parameters of run: hwindow 2, reward (1.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.49824755580151264
+Fraction of Purchases:  0.4984320236118797
+
+Parameters of run: hwindow 2, reward (1.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.50285925106069
+Fraction of Purchases:  0.5059952038369304
+
+Parameters of run: hwindow 2, reward (1.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5023058476295886
+Fraction of Purchases:  0.49252905368013283
+
+Parameters of run: hwindow 2, reward (1.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4904999077660948
+Fraction of Purchases:  0.49769415237041137
+
+Parameters of run: hwindow 2, reward (2.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5021213798192216
+Fraction of Purchases:  0.5067330750783988
+
+Parameters of run: hwindow 2, reward (2.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5011990407673861
+Fraction of Purchases:  0.5106068990961077
+
+Parameters of run: hwindow 2, reward (2.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5159564655967533
+Fraction of Purchases:  0.49732521674967717
+
+Parameters of run: hwindow 2, reward (2.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5047039291643608
+Fraction of Purchases:  0.498985427042981
+
+Parameters of run: hwindow 2, reward (2.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5043349935436267
+Fraction of Purchases:  0.4904999077660948
+
+Parameters of run: hwindow 2, reward (5.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5059952038369304
+Fraction of Purchases:  0.4965873455082088
+
+Parameters of run: hwindow 2, reward (5.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.49787862018077844
+Fraction of Purchases:  0.49179118243866443
+
+Parameters of run: hwindow 2, reward (5.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.49990776609481646
+Fraction of Purchases:  0.49824755580151264
+
+Parameters of run: hwindow 2, reward (5.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49732521674967717
+Fraction of Purchases:  0.4967718133185759
+
+Parameters of run: hwindow 2, reward (5.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5087622209924368
+Fraction of Purchases:  0.49861649142224684
+
+Parameters of run: hwindow 3, reward (0.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 3, reward (0.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 3, reward (0.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 3, reward (0.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 3, reward (0.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 3, reward (0.1, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.0016605166051660517
+
+Parameters of run: hwindow 3, reward (0.1, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.4992619926199262
+Fraction of Purchases:  0.9867158671586715
+
+Parameters of run: hwindow 3, reward (0.1, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.9970479704797048
+
+Parameters of run: hwindow 3, reward (0.1, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  0.9985239852398524
+
+Parameters of run: hwindow 3, reward (0.1, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  0.9985239852398524
+
+Parameters of run: hwindow 3, reward (0.5, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.0016605166051660517
+
+Parameters of run: hwindow 3, reward (0.5, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.4948339483394834
+Fraction of Purchases:  0.5398523985239853
+
+Parameters of run: hwindow 3, reward (0.5, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.4992619926199262
+Fraction of Purchases:  0.9867158671586715
+
+Parameters of run: hwindow 3, reward (0.5, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5005535055350554
+Fraction of Purchases:  0.9935424354243543
+
+Parameters of run: hwindow 3, reward (0.5, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.9970479704797048
+
+Parameters of run: hwindow 3, reward (1.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.0016605166051660517
+
+Parameters of run: hwindow 3, reward (1.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5127306273062731
+Fraction of Purchases:  0.40645756457564575
+
+Parameters of run: hwindow 3, reward (1.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.4976014760147601
+Fraction of Purchases:  0.9330258302583025
+
+Parameters of run: hwindow 3, reward (1.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.4992619926199262
+Fraction of Purchases:  0.9867158671586715
+
+Parameters of run: hwindow 3, reward (1.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5005535055350554
+Fraction of Purchases:  0.9935424354243543
+
+Parameters of run: hwindow 3, reward (2.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.0016605166051660517
+
+Parameters of run: hwindow 3, reward (2.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5040590405904058
+Fraction of Purchases:  0.2830258302583026
+
+Parameters of run: hwindow 3, reward (2.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5042435424354244
+Fraction of Purchases:  0.6857933579335793
+
+Parameters of run: hwindow 3, reward (2.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.4976014760147601
+Fraction of Purchases:  0.9330258302583025
+
+Parameters of run: hwindow 3, reward (2.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.4992619926199262
+Fraction of Purchases:  0.9867158671586715
+
+Parameters of run: hwindow 3, reward (5.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.0016605166051660517
+
+Parameters of run: hwindow 3, reward (5.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  0.1047970479704797
+
+Parameters of run: hwindow 3, reward (5.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5127306273062731
+Fraction of Purchases:  0.40645756457564575
+
+Parameters of run: hwindow 3, reward (5.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.4948339483394834
+Fraction of Purchases:  0.5398523985239853
+
+Parameters of run: hwindow 3, reward (5.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5035055350553506
+Fraction of Purchases:  0.8739852398523985
+
+Parameters of run: hwindow 3, reward (0.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5014760147601476
+Fraction of Purchases:  0.9940959409594096
+
+Parameters of run: hwindow 3, reward (0.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5005535055350554
+Fraction of Purchases:  0.9957564575645756
+
+Parameters of run: hwindow 3, reward (0.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5023985239852399
+Fraction of Purchases:  0.994649446494465
+
+Parameters of run: hwindow 3, reward (0.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5011070110701107
+Fraction of Purchases:  0.996309963099631
+
+Parameters of run: hwindow 3, reward (0.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5014760147601476
+Fraction of Purchases:  0.9952029520295202
+
+Parameters of run: hwindow 3, reward (0.1, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49686346863468633
+Fraction of Purchases:  0.0075645756457564575
+
+Parameters of run: hwindow 3, reward (0.1, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  0.9830258302583026
+
+Parameters of run: hwindow 3, reward (0.1, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5001845018450185
+Fraction of Purchases:  0.9928044280442805
+
+Parameters of run: hwindow 3, reward (0.1, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4996309963099631
+Fraction of Purchases:  0.9937269372693727
+
+Parameters of run: hwindow 3, reward (0.1, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49944649446494466
+Fraction of Purchases:  0.9942804428044281
+
+Parameters of run: hwindow 3, reward (0.5, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4981549815498155
+Fraction of Purchases:  0.015867158671586716
+
+Parameters of run: hwindow 3, reward (0.5, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5029520295202952
+Fraction of Purchases:  0.5523985239852398
+
+Parameters of run: hwindow 3, reward (0.5, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.49944649446494466
+Fraction of Purchases:  0.9824723247232472
+
+Parameters of run: hwindow 3, reward (0.5, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5012915129151292
+Fraction of Purchases:  0.9898523985239852
+
+Parameters of run: hwindow 3, reward (0.5, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.9918819188191882
+
+Parameters of run: hwindow 3, reward (1.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49944649446494466
+Fraction of Purchases:  0.018265682656826567
+
+Parameters of run: hwindow 3, reward (1.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5079335793357933
+Fraction of Purchases:  0.3522140221402214
+
+Parameters of run: hwindow 3, reward (1.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5105166051660517
+Fraction of Purchases:  0.842619926199262
+
+Parameters of run: hwindow 3, reward (1.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4992619926199262
+Fraction of Purchases:  0.9822878228782288
+
+Parameters of run: hwindow 3, reward (1.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5014760147601476
+Fraction of Purchases:  0.9915129151291513
+
+Parameters of run: hwindow 3, reward (2.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5001845018450185
+Fraction of Purchases:  0.01678966789667897
+
+Parameters of run: hwindow 3, reward (2.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.505350553505535
+Fraction of Purchases:  0.22047970479704798
+
+Parameters of run: hwindow 3, reward (2.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5035055350553506
+Fraction of Purchases:  0.631549815498155
+
+Parameters of run: hwindow 3, reward (2.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.502029520295203
+Fraction of Purchases:  0.8769372693726937
+
+Parameters of run: hwindow 3, reward (2.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49944649446494466
+Fraction of Purchases:  0.9835793357933579
+
+Parameters of run: hwindow 3, reward (5.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49723247232472323
+Fraction of Purchases:  0.006457564575645757
+
+Parameters of run: hwindow 3, reward (5.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.49870848708487087
+Fraction of Purchases:  0.13819188191881918
+
+Parameters of run: hwindow 3, reward (5.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.4911439114391144
+Fraction of Purchases:  0.36678966789667894
+
+Parameters of run: hwindow 3, reward (5.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5035055350553506
+Fraction of Purchases:  0.6175276752767528
+
+Parameters of run: hwindow 3, reward (5.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5022140221402214
+Fraction of Purchases:  0.8166051660516606
+
+Parameters of run: hwindow 3, reward (0.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.9760147601476015
+
+Parameters of run: hwindow 3, reward (0.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.4996309963099631
+Fraction of Purchases:  0.977859778597786
+
+Parameters of run: hwindow 3, reward (0.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5009225092250923
+Fraction of Purchases:  0.9773062730627307
+
+Parameters of run: hwindow 3, reward (0.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5016605166051661
+Fraction of Purchases:  0.9773062730627307
+
+Parameters of run: hwindow 3, reward (0.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.9749077490774908
+
+Parameters of run: hwindow 3, reward (0.1, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4935424354243542
+Fraction of Purchases:  0.0448339483394834
+
+Parameters of run: hwindow 3, reward (0.1, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5001845018450185
+Fraction of Purchases:  0.9680811808118082
+
+Parameters of run: hwindow 3, reward (0.1, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5009225092250923
+Fraction of Purchases:  0.9725092250922509
+
+Parameters of run: hwindow 3, reward (0.1, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5018450184501845
+Fraction of Purchases:  0.9715867158671587
+
+Parameters of run: hwindow 3, reward (0.1, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5023985239852399
+Fraction of Purchases:  0.9732472324723247
+
+Parameters of run: hwindow 3, reward (0.5, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49686346863468633
+Fraction of Purchases:  0.042988929889298894
+
+Parameters of run: hwindow 3, reward (0.5, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.4974169741697417
+Fraction of Purchases:  0.5343173431734317
+
+Parameters of run: hwindow 3, reward (0.5, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.4996309963099631
+Fraction of Purchases:  0.9645756457564576
+
+Parameters of run: hwindow 3, reward (0.5, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.9719557195571956
+
+Parameters of run: hwindow 3, reward (0.5, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49833948339483397
+Fraction of Purchases:  0.9732472324723247
+
+Parameters of run: hwindow 3, reward (1.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.03948339483394834
+
+Parameters of run: hwindow 3, reward (1.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5027675276752768
+Fraction of Purchases:  0.3828413284132841
+
+Parameters of run: hwindow 3, reward (1.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.8343173431734318
+
+Parameters of run: hwindow 3, reward (1.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5018450184501845
+Fraction of Purchases:  0.9697416974169741
+
+Parameters of run: hwindow 3, reward (1.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5046125461254612
+Fraction of Purchases:  0.9743542435424354
+
+Parameters of run: hwindow 3, reward (2.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4988929889298893
+Fraction of Purchases:  0.04981549815498155
+
+Parameters of run: hwindow 3, reward (2.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.49870848708487087
+Fraction of Purchases:  0.2570110701107011
+
+Parameters of run: hwindow 3, reward (2.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5040590405904058
+Fraction of Purchases:  0.6579335793357933
+
+Parameters of run: hwindow 3, reward (2.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5040590405904058
+Fraction of Purchases:  0.8785977859778598
+
+Parameters of run: hwindow 3, reward (2.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5033210332103321
+Fraction of Purchases:  0.9678966789667897
+
+Parameters of run: hwindow 3, reward (5.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.040774907749077494
+
+Parameters of run: hwindow 3, reward (5.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5071955719557195
+Fraction of Purchases:  0.14225092250922508
+
+Parameters of run: hwindow 3, reward (5.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.4955719557195572
+Fraction of Purchases:  0.4040590405904059
+
+Parameters of run: hwindow 3, reward (5.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49280442804428043
+Fraction of Purchases:  0.6171586715867159
+
+Parameters of run: hwindow 3, reward (5.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4976014760147601
+Fraction of Purchases:  0.8105166051660516
+
+Parameters of run: hwindow 3, reward (0.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4974169741697417
+Fraction of Purchases:  0.9520295202952029
+
+Parameters of run: hwindow 3, reward (0.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.9540590405904059
+
+Parameters of run: hwindow 3, reward (0.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5016605166051661
+Fraction of Purchases:  0.9533210332103321
+
+Parameters of run: hwindow 3, reward (0.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5009225092250923
+Fraction of Purchases:  0.9533210332103321
+
+Parameters of run: hwindow 3, reward (0.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4974169741697417
+Fraction of Purchases:  0.9476014760147602
+
+Parameters of run: hwindow 3, reward (0.1, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49723247232472323
+Fraction of Purchases:  0.07804428044280443
+
+Parameters of run: hwindow 3, reward (0.1, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5044280442804429
+Fraction of Purchases:  0.9435424354243542
+
+Parameters of run: hwindow 3, reward (0.1, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5055350553505535
+Fraction of Purchases:  0.9509225092250922
+
+Parameters of run: hwindow 3, reward (0.1, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5016605166051661
+Fraction of Purchases:  0.9492619926199262
+
+Parameters of run: hwindow 3, reward (0.1, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49944649446494466
+Fraction of Purchases:  0.9477859778597786
+
+Parameters of run: hwindow 3, reward (0.5, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5031365313653137
+Fraction of Purchases:  0.07767527675276753
+
+Parameters of run: hwindow 3, reward (0.5, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5035055350553506
+Fraction of Purchases:  0.564760147601476
+
+Parameters of run: hwindow 3, reward (0.5, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.49833948339483397
+Fraction of Purchases:  0.9470479704797048
+
+Parameters of run: hwindow 3, reward (0.5, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5031365313653137
+Fraction of Purchases:  0.9466789667896679
+
+Parameters of run: hwindow 3, reward (0.5, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4977859778597786
+Fraction of Purchases:  0.9476014760147602
+
+Parameters of run: hwindow 3, reward (1.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4988929889298893
+Fraction of Purchases:  0.08376383763837639
+
+Parameters of run: hwindow 3, reward (1.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5051660516605166
+Fraction of Purchases:  0.4154981549815498
+
+Parameters of run: hwindow 3, reward (1.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.49944649446494466
+Fraction of Purchases:  0.8784132841328414
+
+Parameters of run: hwindow 3, reward (1.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5029520295202952
+Fraction of Purchases:  0.9472324723247233
+
+Parameters of run: hwindow 3, reward (1.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.502029520295203
+Fraction of Purchases:  0.9459409594095941
+
+Parameters of run: hwindow 3, reward (2.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4959409594095941
+Fraction of Purchases:  0.07084870848708487
+
+Parameters of run: hwindow 3, reward (2.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5001845018450185
+Fraction of Purchases:  0.27361623616236164
+
+Parameters of run: hwindow 3, reward (2.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5040590405904058
+Fraction of Purchases:  0.6579335793357933
+
+Parameters of run: hwindow 3, reward (2.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5066420664206642
+Fraction of Purchases:  0.8937269372693727
+
+Parameters of run: hwindow 3, reward (2.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5009225092250923
+Fraction of Purchases:  0.9396678966789668
+
+Parameters of run: hwindow 3, reward (5.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4952029520295203
+Fraction of Purchases:  0.06346863468634686
+
+Parameters of run: hwindow 3, reward (5.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.4955719557195572
+Fraction of Purchases:  0.15940959409594097
+
+Parameters of run: hwindow 3, reward (5.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5105166051660517
+Fraction of Purchases:  0.4433579335793358
+
+Parameters of run: hwindow 3, reward (5.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49243542435424353
+Fraction of Purchases:  0.6142066420664206
+
+Parameters of run: hwindow 3, reward (5.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5062730627306273
+Fraction of Purchases:  0.82619926199262
+
+Parameters of run: hwindow 3, reward (0.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4944649446494465
+Fraction of Purchases:  0.8933579335793358
+
+Parameters of run: hwindow 3, reward (0.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.4981549815498155
+Fraction of Purchases:  0.8922509225092251
+
+Parameters of run: hwindow 3, reward (0.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5009225092250923
+Fraction of Purchases:  0.9012915129151291
+
+Parameters of run: hwindow 3, reward (0.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5055350553505535
+Fraction of Purchases:  0.8981549815498155
+
+Parameters of run: hwindow 3, reward (0.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49501845018450186
+Fraction of Purchases:  0.8957564575645757
+
+Parameters of run: hwindow 3, reward (0.1, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5033210332103321
+Fraction of Purchases:  0.14575645756457564
+
+Parameters of run: hwindow 3, reward (0.1, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5023985239852399
+Fraction of Purchases:  0.8976014760147601
+
+Parameters of run: hwindow 3, reward (0.1, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5088560885608856
+Fraction of Purchases:  0.9084870848708487
+
+Parameters of run: hwindow 3, reward (0.1, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49833948339483397
+Fraction of Purchases:  0.8990774907749077
+
+Parameters of run: hwindow 3, reward (0.1, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4988929889298893
+Fraction of Purchases:  0.8937269372693727
+
+Parameters of run: hwindow 3, reward (0.5, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.13321033210332103
+
+Parameters of run: hwindow 3, reward (0.5, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.503690036900369
+Fraction of Purchases:  0.6140221402214022
+
+Parameters of run: hwindow 3, reward (0.5, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.49870848708487087
+Fraction of Purchases:  0.8928044280442804
+
+Parameters of run: hwindow 3, reward (0.5, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5079335793357933
+Fraction of Purchases:  0.8898523985239852
+
+Parameters of run: hwindow 3, reward (0.5, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.502029520295203
+Fraction of Purchases:  0.9094095940959409
+
+Parameters of run: hwindow 3, reward (1.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4940959409594096
+Fraction of Purchases:  0.13357933579335793
+
+Parameters of run: hwindow 3, reward (1.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5066420664206642
+Fraction of Purchases:  0.4656826568265683
+
+Parameters of run: hwindow 3, reward (1.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.49870848708487087
+Fraction of Purchases:  0.8212177121771218
+
+Parameters of run: hwindow 3, reward (1.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5047970479704798
+Fraction of Purchases:  0.8922509225092251
+
+Parameters of run: hwindow 3, reward (1.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5025830258302583
+Fraction of Purchases:  0.8937269372693727
+
+Parameters of run: hwindow 3, reward (2.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4887453874538745
+Fraction of Purchases:  0.13007380073800737
+
+Parameters of run: hwindow 3, reward (2.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.3088560885608856
+
+Parameters of run: hwindow 3, reward (2.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5092250922509225
+Fraction of Purchases:  0.66309963099631
+
+Parameters of run: hwindow 3, reward (2.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49464944649446496
+Fraction of Purchases:  0.8444649446494465
+
+Parameters of run: hwindow 3, reward (2.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  0.8985239852398524
+
+Parameters of run: hwindow 3, reward (5.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4952029520295203
+Fraction of Purchases:  0.13579335793357933
+
+Parameters of run: hwindow 3, reward (5.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.4940959409594096
+Fraction of Purchases:  0.2158671586715867
+
+Parameters of run: hwindow 3, reward (5.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.4996309963099631
+Fraction of Purchases:  0.45202952029520294
+
+Parameters of run: hwindow 3, reward (5.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5040590405904058
+Fraction of Purchases:  0.5918819188191882
+
+Parameters of run: hwindow 3, reward (5.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5044280442804429
+Fraction of Purchases:  0.7985239852398524
+
+Parameters of run: hwindow 3, reward (0.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5001845018450185
+Fraction of Purchases:  0.75
+
+Parameters of run: hwindow 3, reward (0.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4985239852398524
+Fraction of Purchases:  0.7453874538745388
+
+Parameters of run: hwindow 3, reward (0.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.4981549815498155
+Fraction of Purchases:  0.7464944649446494
+
+Parameters of run: hwindow 3, reward (0.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5033210332103321
+Fraction of Purchases:  0.755350553505535
+
+Parameters of run: hwindow 3, reward (0.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5042435424354244
+Fraction of Purchases:  0.7470479704797048
+
+Parameters of run: hwindow 3, reward (0.1, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.509409594095941
+Fraction of Purchases:  0.29501845018450185
+
+Parameters of run: hwindow 3, reward (0.1, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5095940959409594
+Fraction of Purchases:  0.7487084870848708
+
+Parameters of run: hwindow 3, reward (0.1, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.7549815498154981
+
+Parameters of run: hwindow 3, reward (0.1, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5142066420664206
+Fraction of Purchases:  0.753690036900369
+
+Parameters of run: hwindow 3, reward (0.1, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5023985239852399
+Fraction of Purchases:  0.7555350553505535
+
+Parameters of run: hwindow 3, reward (0.5, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.48523985239852396
+Fraction of Purchases:  0.2848708487084871
+
+Parameters of run: hwindow 3, reward (0.5, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4970479704797048
+Fraction of Purchases:  0.5808118081180812
+
+Parameters of run: hwindow 3, reward (0.5, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5047970479704798
+Fraction of Purchases:  0.7512915129151292
+
+Parameters of run: hwindow 3, reward (0.5, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5001845018450185
+Fraction of Purchases:  0.7603321033210332
+
+Parameters of run: hwindow 3, reward (0.5, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5042435424354244
+Fraction of Purchases:  0.7522140221402214
+
+Parameters of run: hwindow 3, reward (1.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5042435424354244
+Fraction of Purchases:  0.29354243542435426
+
+Parameters of run: hwindow 3, reward (1.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5127306273062731
+Fraction of Purchases:  0.47915129151291513
+
+Parameters of run: hwindow 3, reward (1.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5035055350553506
+Fraction of Purchases:  0.7252767527675277
+
+Parameters of run: hwindow 3, reward (1.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5081180811808118
+Fraction of Purchases:  0.7424354243542436
+
+Parameters of run: hwindow 3, reward (1.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4966789667896679
+Fraction of Purchases:  0.7538745387453875
+
+Parameters of run: hwindow 3, reward (2.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4970479704797048
+Fraction of Purchases:  0.28376383763837637
+
+Parameters of run: hwindow 3, reward (2.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  0.4180811808118081
+
+Parameters of run: hwindow 3, reward (2.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.4959409594095941
+Fraction of Purchases:  0.6461254612546126
+
+Parameters of run: hwindow 3, reward (2.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4985239852398524
+Fraction of Purchases:  0.7195571955719557
+
+Parameters of run: hwindow 3, reward (2.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4959409594095941
+Fraction of Purchases:  0.7512915129151292
+
+Parameters of run: hwindow 3, reward (5.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5022140221402214
+Fraction of Purchases:  0.2911439114391144
+
+Parameters of run: hwindow 3, reward (5.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.48653136531365315
+Fraction of Purchases:  0.32933579335793356
+
+Parameters of run: hwindow 3, reward (5.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.507380073800738
+Fraction of Purchases:  0.4782287822878229
+
+Parameters of run: hwindow 3, reward (5.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4878228782287823
+Fraction of Purchases:  0.5715867158671587
+
+Parameters of run: hwindow 3, reward (5.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5188191881918819
+Fraction of Purchases:  0.6981549815498155
+
+Parameters of run: hwindow 3, reward (0.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4955719557195572
+Fraction of Purchases:  0.5055350553505535
+
+Parameters of run: hwindow 3, reward (0.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5003690036900369
+Fraction of Purchases:  0.5007380073800738
+
+Parameters of run: hwindow 3, reward (0.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5055350553505535
+Fraction of Purchases:  0.49372693726937267
+
+Parameters of run: hwindow 3, reward (0.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5051660516605166
+Fraction of Purchases:  0.5070110701107011
+
+Parameters of run: hwindow 3, reward (0.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5060885608856088
+Fraction of Purchases:  0.5016605166051661
+
+Parameters of run: hwindow 3, reward (0.1, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.507380073800738
+Fraction of Purchases:  0.5059040590405904
+
+Parameters of run: hwindow 3, reward (0.1, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5001845018450185
+Fraction of Purchases:  0.4979704797047971
+
+Parameters of run: hwindow 3, reward (0.1, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5007380073800738
+Fraction of Purchases:  0.5081180811808118
+
+Parameters of run: hwindow 3, reward (0.1, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5099630996309963
+Fraction of Purchases:  0.5051660516605166
+
+Parameters of run: hwindow 3, reward (0.1, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4933579335793358
+Fraction of Purchases:  0.4915129151291513
+
+Parameters of run: hwindow 3, reward (0.5, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5071955719557195
+Fraction of Purchases:  0.5108856088560886
+
+Parameters of run: hwindow 3, reward (0.5, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.49538745387453875
+Fraction of Purchases:  0.4846863468634686
+
+Parameters of run: hwindow 3, reward (0.5, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4988929889298893
+Fraction of Purchases:  0.5033210332103321
+
+Parameters of run: hwindow 3, reward (0.5, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49059040590405906
+Fraction of Purchases:  0.49501845018450186
+
+Parameters of run: hwindow 3, reward (0.5, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5134686346863468
+Fraction of Purchases:  0.49723247232472323
+
+Parameters of run: hwindow 3, reward (1.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4955719557195572
+Fraction of Purchases:  0.4929889298892989
+
+Parameters of run: hwindow 3, reward (1.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.4894833948339483
+
+Parameters of run: hwindow 3, reward (1.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5123616236162362
+Fraction of Purchases:  0.49428044280442807
+
+Parameters of run: hwindow 3, reward (1.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5040590405904058
+Fraction of Purchases:  0.4907749077490775
+
+Parameters of run: hwindow 3, reward (1.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.48616236162361626
+Fraction of Purchases:  0.4976014760147601
+
+Parameters of run: hwindow 3, reward (2.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4985239852398524
+Fraction of Purchases:  0.4819188191881919
+
+Parameters of run: hwindow 3, reward (2.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5027675276752768
+Fraction of Purchases:  0.502029520295203
+
+Parameters of run: hwindow 3, reward (2.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4845018450184502
+Fraction of Purchases:  0.5007380073800738
+
+Parameters of run: hwindow 3, reward (2.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.502029520295203
+Fraction of Purchases:  0.49391143911439117
+
+Parameters of run: hwindow 3, reward (2.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4979704797047971
+Fraction of Purchases:  0.49022140221402216
+
+Parameters of run: hwindow 3, reward (5.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49022140221402216
+Fraction of Purchases:  0.5038745387453875
+
+Parameters of run: hwindow 3, reward (5.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5068265682656826
+Fraction of Purchases:  0.505350553505535
+
+Parameters of run: hwindow 3, reward (5.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.503690036900369
+Fraction of Purchases:  0.5118081180811808
+
+Parameters of run: hwindow 3, reward (5.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5088560885608856
+Fraction of Purchases:  0.503690036900369
+
+Parameters of run: hwindow 3, reward (5.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5066420664206642
+Fraction of Purchases:  0.4988929889298893
+
+Parameters of run: hwindow 4, reward (0.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.5008304115150397
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 4, reward (0.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5008304115150397
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 4, reward (0.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5008304115150397
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 4, reward (0.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5008304115150397
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 4, reward (0.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5008304115150397
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 4, reward (0.1, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.497508765454881
+Fraction of Purchases:  0.006089684443624285
+
+Parameters of run: hwindow 4, reward (0.1, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.49916958848496035
+Fraction of Purchases:  0.9732422956264993
+
+Parameters of run: hwindow 4, reward (0.1, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5000922679461155
+Fraction of Purchases:  0.9948329950175309
+
+Parameters of run: hwindow 4, reward (0.1, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5008304115150397
+Fraction of Purchases:  0.9970474257243034
+
+Parameters of run: hwindow 4, reward (0.1, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5008304115150397
+Fraction of Purchases:  0.9970474257243034
+
+Parameters of run: hwindow 4, reward (0.5, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.497508765454881
+Fraction of Purchases:  0.006089684443624285
+
+Parameters of run: hwindow 4, reward (0.5, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5076582395275882
+Fraction of Purchases:  0.5683705480715999
+
+Parameters of run: hwindow 4, reward (0.5, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.49916958848496035
+Fraction of Purchases:  0.9732422956264993
+
+Parameters of run: hwindow 4, reward (0.5, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5002768038383466
+Fraction of Purchases:  0.9891123823583687
+
+Parameters of run: hwindow 4, reward (0.5, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5015685550839638
+Fraction of Purchases:  0.9940948514486068
+
+Parameters of run: hwindow 4, reward (1.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.497508765454881
+Fraction of Purchases:  0.006089684443624285
+
+Parameters of run: hwindow 4, reward (1.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5015685550839638
+Fraction of Purchases:  0.3212769883742388
+
+Parameters of run: hwindow 4, reward (1.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5030448422218121
+Fraction of Purchases:  0.7999630928215538
+
+Parameters of run: hwindow 4, reward (1.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.49916958848496035
+Fraction of Purchases:  0.9732422956264993
+
+Parameters of run: hwindow 4, reward (1.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5002768038383466
+Fraction of Purchases:  0.9891123823583687
+
+Parameters of run: hwindow 4, reward (2.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.497508765454881
+Fraction of Purchases:  0.006089684443624285
+
+Parameters of run: hwindow 4, reward (2.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.4984314449160362
+Fraction of Purchases:  0.21037091714338438
+
+Parameters of run: hwindow 4, reward (2.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.507473703635357
+Fraction of Purchases:  0.5995571138586455
+
+Parameters of run: hwindow 4, reward (2.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5030448422218121
+Fraction of Purchases:  0.7999630928215538
+
+Parameters of run: hwindow 4, reward (2.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.49916958848496035
+Fraction of Purchases:  0.9732422956264993
+
+Parameters of run: hwindow 4, reward (5.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.497508765454881
+Fraction of Purchases:  0.006089684443624285
+
+Parameters of run: hwindow 4, reward (5.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.4989850525927293
+Fraction of Purchases:  0.0957741280679092
+
+Parameters of run: hwindow 4, reward (5.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5015685550839638
+Fraction of Purchases:  0.3212769883742388
+
+Parameters of run: hwindow 4, reward (5.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5076582395275882
+Fraction of Purchases:  0.5683705480715999
+
+Parameters of run: hwindow 4, reward (5.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.4989850525927293
+Fraction of Purchases:  0.7859383650119949
+
+Parameters of run: hwindow 4, reward (0.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5019376268684259
+Fraction of Purchases:  0.9940948514486068
+
+Parameters of run: hwindow 4, reward (0.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5006458756228086
+Fraction of Purchases:  0.9957556744786861
+
+Parameters of run: hwindow 4, reward (0.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5013840191917328
+Fraction of Purchases:  0.9968628898320724
+
+Parameters of run: hwindow 4, reward (0.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5021221627606569
+Fraction of Purchases:  0.9939103155563758
+
+Parameters of run: hwindow 4, reward (0.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5002768038383466
+Fraction of Purchases:  0.995017530909762
+
+Parameters of run: hwindow 4, reward (0.1, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4971396936704189
+Fraction of Purchases:  0.014209263701789997
+
+Parameters of run: hwindow 4, reward (0.1, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.49880051670049824
+Fraction of Purchases:  0.9695515777818786
+
+Parameters of run: hwindow 4, reward (0.1, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5017530909761949
+Fraction of Purchases:  0.9898505259272928
+
+Parameters of run: hwindow 4, reward (0.1, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5021221627606569
+Fraction of Purchases:  0.9916958848496032
+
+Parameters of run: hwindow 4, reward (0.1, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5010149474072707
+Fraction of Purchases:  0.9920649566340654
+
+Parameters of run: hwindow 4, reward (0.5, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49677062188595683
+Fraction of Purchases:  0.013102048348403764
+
+Parameters of run: hwindow 4, reward (0.5, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5063664882819708
+Fraction of Purchases:  0.5895921756781694
+
+Parameters of run: hwindow 4, reward (0.5, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.4986159808082672
+Fraction of Purchases:  0.9701051854585717
+
+Parameters of run: hwindow 4, reward (0.5, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5002768038383466
+Fraction of Purchases:  0.9846835209448238
+
+Parameters of run: hwindow 4, reward (0.5, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5000922679461155
+Fraction of Purchases:  0.9889278464661376
+
+Parameters of run: hwindow 4, reward (1.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5000922679461155
+Fraction of Purchases:  0.026757704373500647
+
+Parameters of run: hwindow 4, reward (1.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5017530909761949
+Fraction of Purchases:  0.33954604170511166
+
+Parameters of run: hwindow 4, reward (1.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5054438088208156
+Fraction of Purchases:  0.8152795718767301
+
+Parameters of run: hwindow 4, reward (1.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4984314449160362
+Fraction of Purchases:  0.9725041520575752
+
+Parameters of run: hwindow 4, reward (1.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4995386602694224
+Fraction of Purchases:  0.9843144491603617
+
+Parameters of run: hwindow 4, reward (2.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49769330134711204
+Fraction of Purchases:  0.014762871378483115
+
+Parameters of run: hwindow 4, reward (2.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.49566340653257057
+Fraction of Purchases:  0.22052039121609154
+
+Parameters of run: hwindow 4, reward (2.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5107953496955158
+Fraction of Purchases:  0.658608599372578
+
+Parameters of run: hwindow 4, reward (2.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5037829857907363
+Fraction of Purchases:  0.8424063480346927
+
+Parameters of run: hwindow 4, reward (2.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5006458756228086
+Fraction of Purchases:  0.9699206495663406
+
+Parameters of run: hwindow 4, reward (5.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4971396936704189
+Fraction of Purchases:  0.014578335486252076
+
+Parameters of run: hwindow 4, reward (5.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.49510979885587747
+Fraction of Purchases:  0.08119579258165713
+
+Parameters of run: hwindow 4, reward (5.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.4986159808082672
+Fraction of Purchases:  0.33161099833917695
+
+Parameters of run: hwindow 4, reward (5.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5109798855877468
+Fraction of Purchases:  0.5093190625576675
+
+Parameters of run: hwindow 4, reward (5.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5113489573722089
+Fraction of Purchases:  0.7857538291197638
+
+Parameters of run: hwindow 4, reward (0.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49935412437719134
+Fraction of Purchases:  0.9752721904410407
+
+Parameters of run: hwindow 4, reward (0.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5017530909761949
+Fraction of Purchases:  0.9758257981177338
+
+Parameters of run: hwindow 4, reward (0.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5011994832995017
+Fraction of Purchases:  0.9763794057944271
+
+Parameters of run: hwindow 4, reward (0.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4989850525927293
+Fraction of Purchases:  0.9763794057944271
+
+Parameters of run: hwindow 4, reward (0.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5010149474072707
+Fraction of Purchases:  0.9732422956264993
+
+Parameters of run: hwindow 4, reward (0.1, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49916958848496035
+Fraction of Purchases:  0.05277726517807713
+
+Parameters of run: hwindow 4, reward (0.1, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.50267577043735
+Fraction of Purchases:  0.9582948883557852
+
+Parameters of run: hwindow 4, reward (0.1, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5013840191917328
+Fraction of Purchases:  0.9688134342129544
+
+Parameters of run: hwindow 4, reward (0.1, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5011994832995017
+Fraction of Purchases:  0.97158147259642
+
+Parameters of run: hwindow 4, reward (0.1, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5006458756228086
+Fraction of Purchases:  0.9699206495663406
+
+Parameters of run: hwindow 4, reward (0.5, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4965860859937258
+Fraction of Purchases:  0.049086547333456354
+
+Parameters of run: hwindow 4, reward (0.5, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5069200959586639
+Fraction of Purchases:  0.5949437165528695
+
+Parameters of run: hwindow 4, reward (0.5, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5002768038383466
+Fraction of Purchases:  0.9522052039121609
+
+Parameters of run: hwindow 4, reward (0.5, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5030448422218121
+Fraction of Purchases:  0.966783539398413
+
+Parameters of run: hwindow 4, reward (0.5, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5032293781140432
+Fraction of Purchases:  0.9673371470751061
+
+Parameters of run: hwindow 4, reward (1.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4971396936704189
+Fraction of Purchases:  0.0492710832256874
+
+Parameters of run: hwindow 4, reward (1.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5006458756228086
+Fraction of Purchases:  0.33253367780033216
+
+Parameters of run: hwindow 4, reward (1.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.511902565048902
+Fraction of Purchases:  0.867134157593652
+
+Parameters of run: hwindow 4, reward (1.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5019376268684259
+Fraction of Purchases:  0.9560804576490127
+
+Parameters of run: hwindow 4, reward (1.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5041520575751984
+Fraction of Purchases:  0.9697361136741096
+
+Parameters of run: hwindow 4, reward (2.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.497508765454881
+Fraction of Purchases:  0.05702159069939103
+
+Parameters of run: hwindow 4, reward (2.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5047056652518915
+Fraction of Purchases:  0.2266100756597158
+
+Parameters of run: hwindow 4, reward (2.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5004613397305776
+Fraction of Purchases:  0.6073076213323492
+
+Parameters of run: hwindow 4, reward (2.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4999077320538845
+Fraction of Purchases:  0.8211847204281233
+
+Parameters of run: hwindow 4, reward (2.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4965860859937258
+Fraction of Purchases:  0.9581103524635541
+
+Parameters of run: hwindow 4, reward (5.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49769330134711204
+Fraction of Purchases:  0.046133973057759736
+
+Parameters of run: hwindow 4, reward (5.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.4958479424248016
+Fraction of Purchases:  0.1265916220704927
+
+Parameters of run: hwindow 4, reward (5.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.49031186565787044
+Fraction of Purchases:  0.37792950728916774
+
+Parameters of run: hwindow 4, reward (5.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49455619117918437
+Fraction of Purchases:  0.5578520022144307
+
+Parameters of run: hwindow 4, reward (5.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49566340653257057
+Fraction of Purchases:  0.7346373869717661
+
+Parameters of run: hwindow 4, reward (0.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5043365934674294
+Fraction of Purchases:  0.9510979885587747
+
+Parameters of run: hwindow 4, reward (0.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.49455619117918437
+Fraction of Purchases:  0.9457464476840746
+
+Parameters of run: hwindow 4, reward (0.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.507289167743126
+Fraction of Purchases:  0.9499907732053885
+
+Parameters of run: hwindow 4, reward (0.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5010149474072707
+Fraction of Purchases:  0.9481454142830781
+
+Parameters of run: hwindow 4, reward (0.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4969551577781879
+Fraction of Purchases:  0.9481454142830781
+
+Parameters of run: hwindow 4, reward (0.1, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49824690902380514
+Fraction of Purchases:  0.08544011810297103
+
+Parameters of run: hwindow 4, reward (0.1, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5043365934674294
+Fraction of Purchases:  0.9367041889647536
+
+Parameters of run: hwindow 4, reward (0.1, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.4940025835024912
+Fraction of Purchases:  0.9474072707141539
+
+Parameters of run: hwindow 4, reward (0.1, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5056283447130467
+Fraction of Purchases:  0.947960878390847
+
+Parameters of run: hwindow 4, reward (0.1, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5037829857907363
+Fraction of Purchases:  0.9464845912529987
+
+Parameters of run: hwindow 4, reward (0.5, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5017530909761949
+Fraction of Purchases:  0.09558959217567817
+
+Parameters of run: hwindow 4, reward (0.5, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.49307990404133606
+Fraction of Purchases:  0.5611736482745894
+
+Parameters of run: hwindow 4, reward (0.5, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.502491234545119
+Fraction of Purchases:  0.9352279018269053
+
+Parameters of run: hwindow 4, reward (0.5, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49880051670049824
+Fraction of Purchases:  0.9481454142830781
+
+Parameters of run: hwindow 4, reward (0.5, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49880051670049824
+Fraction of Purchases:  0.9411330503782985
+
+Parameters of run: hwindow 4, reward (1.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49787783723934304
+Fraction of Purchases:  0.08544011810297103
+
+Parameters of run: hwindow 4, reward (1.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5019376268684259
+Fraction of Purchases:  0.40025835024912343
+
+Parameters of run: hwindow 4, reward (1.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.4999077320538845
+Fraction of Purchases:  0.8366857353755306
+
+Parameters of run: hwindow 4, reward (1.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5076582395275882
+Fraction of Purchases:  0.9367041889647536
+
+Parameters of run: hwindow 4, reward (1.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49916958848496035
+Fraction of Purchases:  0.9444546964384573
+
+Parameters of run: hwindow 4, reward (2.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4954788706403395
+Fraction of Purchases:  0.08082672079719505
+
+Parameters of run: hwindow 4, reward (2.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5045211293596604
+Fraction of Purchases:  0.26038014393799597
+
+Parameters of run: hwindow 4, reward (2.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5076582395275882
+Fraction of Purchases:  0.6425539767484776
+
+Parameters of run: hwindow 4, reward (2.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49880051670049824
+Fraction of Purchases:  0.8448053146336962
+
+Parameters of run: hwindow 4, reward (2.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5037829857907363
+Fraction of Purchases:  0.9442701605462263
+
+Parameters of run: hwindow 4, reward (5.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49621701420926373
+Fraction of Purchases:  0.08931537183982284
+
+Parameters of run: hwindow 4, reward (5.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.4934489758257981
+Fraction of Purchases:  0.1596235467798487
+
+Parameters of run: hwindow 4, reward (5.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.49787783723934304
+Fraction of Purchases:  0.39656763240450266
+
+Parameters of run: hwindow 4, reward (5.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5035984498985052
+Fraction of Purchases:  0.5643107584425171
+
+Parameters of run: hwindow 4, reward (5.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49787783723934304
+Fraction of Purchases:  0.7737589961247463
+
+Parameters of run: hwindow 4, reward (0.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49935412437719134
+Fraction of Purchases:  0.9040413360398597
+
+Parameters of run: hwindow 4, reward (0.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.4984314449160362
+Fraction of Purchases:  0.8890939287691456
+
+Parameters of run: hwindow 4, reward (0.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.50267577043735
+Fraction of Purchases:  0.9010887617641631
+
+Parameters of run: hwindow 4, reward (0.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5015685550839638
+Fraction of Purchases:  0.8962908285661562
+
+Parameters of run: hwindow 4, reward (0.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4986159808082672
+Fraction of Purchases:  0.9010887617641631
+
+Parameters of run: hwindow 4, reward (0.1, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4949252629636464
+Fraction of Purchases:  0.15187303930614504
+
+Parameters of run: hwindow 4, reward (0.1, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5015685550839638
+Fraction of Purchases:  0.8922310389370732
+
+Parameters of run: hwindow 4, reward (0.1, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.49880051670049824
+Fraction of Purchases:  0.9012732976563942
+
+Parameters of run: hwindow 4, reward (0.1, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5059974164975087
+Fraction of Purchases:  0.8948145414283079
+
+Parameters of run: hwindow 4, reward (0.1, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49363351171802916
+Fraction of Purchases:  0.890939287691456
+
+Parameters of run: hwindow 4, reward (0.5, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4995386602694224
+Fraction of Purchases:  0.14541428307805868
+
+Parameters of run: hwindow 4, reward (0.5, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5095035984498985
+Fraction of Purchases:  0.5787045580365381
+
+Parameters of run: hwindow 4, reward (0.5, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.4999077320538845
+Fraction of Purchases:  0.8876176416312973
+
+Parameters of run: hwindow 4, reward (0.5, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49935412437719134
+Fraction of Purchases:  0.8973980439195424
+
+Parameters of run: hwindow 4, reward (0.5, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4986159808082672
+Fraction of Purchases:  0.8948145414283079
+
+Parameters of run: hwindow 4, reward (1.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.48883557852002213
+Fraction of Purchases:  0.14098542166451375
+
+Parameters of run: hwindow 4, reward (1.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.4969551577781879
+Fraction of Purchases:  0.4107768961062927
+
+Parameters of run: hwindow 4, reward (1.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.4958479424248016
+Fraction of Purchases:  0.8101125668942609
+
+Parameters of run: hwindow 4, reward (1.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5030448422218121
+Fraction of Purchases:  0.8881712493079904
+
+Parameters of run: hwindow 4, reward (1.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5017530909761949
+Fraction of Purchases:  0.8905702159069939
+
+Parameters of run: hwindow 4, reward (2.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4952943347481085
+Fraction of Purchases:  0.13305037829857908
+
+Parameters of run: hwindow 4, reward (2.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5091345266654365
+Fraction of Purchases:  0.3055914375346005
+
+Parameters of run: hwindow 4, reward (2.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5111644214799779
+Fraction of Purchases:  0.6342498615980808
+
+Parameters of run: hwindow 4, reward (2.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49418711939472226
+Fraction of Purchases:  0.8080826720797195
+
+Parameters of run: hwindow 4, reward (2.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49677062188595683
+Fraction of Purchases:  0.8896475364458387
+
+Parameters of run: hwindow 4, reward (5.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4934489758257981
+Fraction of Purchases:  0.13341945008304115
+
+Parameters of run: hwindow 4, reward (5.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5000922679461155
+Fraction of Purchases:  0.20723380697545674
+
+Parameters of run: hwindow 4, reward (5.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.4893891861967153
+Fraction of Purchases:  0.4246170880236206
+
+Parameters of run: hwindow 4, reward (5.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5082118472042813
+Fraction of Purchases:  0.5593282893522791
+
+Parameters of run: hwindow 4, reward (5.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5080273113120501
+Fraction of Purchases:  0.7506920095958663
+
+Parameters of run: hwindow 4, reward (0.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4914190810112567
+Fraction of Purchases:  0.7481085071046318
+
+Parameters of run: hwindow 4, reward (0.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5034139140062742
+Fraction of Purchases:  0.7527219044104079
+
+Parameters of run: hwindow 4, reward (0.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.4995386602694224
+Fraction of Purchases:  0.7525373685181768
+
+Parameters of run: hwindow 4, reward (0.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5052592729285846
+Fraction of Purchases:  0.7475548994279387
+
+Parameters of run: hwindow 4, reward (0.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4984314449160362
+Fraction of Purchases:  0.7554899427938734
+
+Parameters of run: hwindow 4, reward (0.1, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4952943347481085
+Fraction of Purchases:  0.3020852555822107
+
+Parameters of run: hwindow 4, reward (0.1, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4989850525927293
+Fraction of Purchases:  0.7427569662299317
+
+Parameters of run: hwindow 4, reward (0.1, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.4925262963646429
+Fraction of Purchases:  0.7481085071046318
+
+Parameters of run: hwindow 4, reward (0.1, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.502491234545119
+Fraction of Purchases:  0.753644583871563
+
+Parameters of run: hwindow 4, reward (0.1, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5015685550839638
+Fraction of Purchases:  0.7615796272374977
+
+Parameters of run: hwindow 4, reward (0.5, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49621701420926373
+Fraction of Purchases:  0.30337700682782803
+
+Parameters of run: hwindow 4, reward (0.5, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4919726886879498
+Fraction of Purchases:  0.5796272374976933
+
+Parameters of run: hwindow 4, reward (0.5, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5004613397305776
+Fraction of Purchases:  0.7427569662299317
+
+Parameters of run: hwindow 4, reward (0.5, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4879128990588669
+Fraction of Purchases:  0.7401734637386972
+
+Parameters of run: hwindow 4, reward (0.5, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5089499907732054
+Fraction of Purchases:  0.7438641815833179
+
+Parameters of run: hwindow 4, reward (1.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5013840191917328
+Fraction of Purchases:  0.3000553607676693
+
+Parameters of run: hwindow 4, reward (1.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5004613397305776
+Fraction of Purchases:  0.464476840745525
+
+Parameters of run: hwindow 4, reward (1.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.49935412437719134
+Fraction of Purchases:  0.7043735006458757
+
+Parameters of run: hwindow 4, reward (1.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5032293781140432
+Fraction of Purchases:  0.7444177892600111
+
+Parameters of run: hwindow 4, reward (1.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4899427938734084
+Fraction of Purchases:  0.7481085071046318
+
+Parameters of run: hwindow 4, reward (2.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5034139140062742
+Fraction of Purchases:  0.2913821738328105
+
+Parameters of run: hwindow 4, reward (2.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5106108138032848
+Fraction of Purchases:  0.4104078243218306
+
+Parameters of run: hwindow 4, reward (2.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5004613397305776
+Fraction of Purchases:  0.5977117549363351
+
+Parameters of run: hwindow 4, reward (2.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5019376268684259
+Fraction of Purchases:  0.7331610998339178
+
+Parameters of run: hwindow 4, reward (2.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5069200959586639
+Fraction of Purchases:  0.7418342867687765
+
+Parameters of run: hwindow 4, reward (5.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4971396936704189
+Fraction of Purchases:  0.3142646244694593
+
+Parameters of run: hwindow 4, reward (5.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4943716552869533
+Fraction of Purchases:  0.3247831703266285
+
+Parameters of run: hwindow 4, reward (5.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.492895368149105
+Fraction of Purchases:  0.4657685919911423
+
+Parameters of run: hwindow 4, reward (5.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49787783723934304
+Fraction of Purchases:  0.5652334379036723
+
+Parameters of run: hwindow 4, reward (5.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49972319616165345
+Fraction of Purchases:  0.6803838346558405
+
+Parameters of run: hwindow 4, reward (0.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5082118472042813
+Fraction of Purchases:  0.5035984498985052
+
+Parameters of run: hwindow 4, reward (0.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.4960324783170327
+Fraction of Purchases:  0.4925262963646429
+
+Parameters of run: hwindow 4, reward (0.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.497508765454881
+Fraction of Purchases:  0.49732422956264993
+
+Parameters of run: hwindow 4, reward (0.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5087654548809744
+Fraction of Purchases:  0.4923417604724119
+
+Parameters of run: hwindow 4, reward (0.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49510979885587747
+Fraction of Purchases:  0.49972319616165345
+
+Parameters of run: hwindow 4, reward (0.1, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4923417604724119
+Fraction of Purchases:  0.48920465030448423
+
+Parameters of run: hwindow 4, reward (0.1, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5039675216829673
+Fraction of Purchases:  0.483484037645322
+
+Parameters of run: hwindow 4, reward (0.1, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5006458756228086
+Fraction of Purchases:  0.4923417604724119
+
+Parameters of run: hwindow 4, reward (0.1, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4980623731315741
+Fraction of Purchases:  0.4986159808082672
+
+Parameters of run: hwindow 4, reward (0.1, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5106108138032848
+Fraction of Purchases:  0.5015685550839638
+
+Parameters of run: hwindow 4, reward (0.5, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4999077320538845
+Fraction of Purchases:  0.49455619117918437
+
+Parameters of run: hwindow 4, reward (0.5, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5021221627606569
+Fraction of Purchases:  0.49566340653257057
+
+Parameters of run: hwindow 4, reward (0.5, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.49916958848496035
+Fraction of Purchases:  0.49787783723934304
+
+Parameters of run: hwindow 4, reward (0.5, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49880051670049824
+Fraction of Purchases:  0.4971396936704189
+
+Parameters of run: hwindow 4, reward (0.5, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5000922679461155
+Fraction of Purchases:  0.4899427938734084
+
+Parameters of run: hwindow 4, reward (1.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4995386602694224
+Fraction of Purchases:  0.5056283447130467
+
+Parameters of run: hwindow 4, reward (1.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.49935412437719134
+Fraction of Purchases:  0.48883557852002213
+
+Parameters of run: hwindow 4, reward (1.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.48920465030448423
+Fraction of Purchases:  0.4890201144122532
+
+Parameters of run: hwindow 4, reward (1.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5047056652518915
+Fraction of Purchases:  0.4960324783170327
+
+Parameters of run: hwindow 4, reward (1.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5017530909761949
+Fraction of Purchases:  0.497508765454881
+
+Parameters of run: hwindow 4, reward (2.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49732422956264993
+Fraction of Purchases:  0.497508765454881
+
+Parameters of run: hwindow 4, reward (2.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.49824690902380514
+Fraction of Purchases:  0.5017530909761949
+
+Parameters of run: hwindow 4, reward (2.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5010149474072707
+Fraction of Purchases:  0.5045211293596604
+
+Parameters of run: hwindow 4, reward (2.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4980623731315741
+Fraction of Purchases:  0.49566340653257057
+
+Parameters of run: hwindow 4, reward (2.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49271083225687395
+Fraction of Purchases:  0.4980623731315741
+
+Parameters of run: hwindow 4, reward (5.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49916958848496035
+Fraction of Purchases:  0.4904964015501015
+
+Parameters of run: hwindow 4, reward (5.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.4965860859937258
+Fraction of Purchases:  0.497508765454881
+
+Parameters of run: hwindow 4, reward (5.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.502491234545119
+Fraction of Purchases:  0.50267577043735
+
+Parameters of run: hwindow 4, reward (5.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5065510241742018
+Fraction of Purchases:  0.48606754013655656
+
+Parameters of run: hwindow 4, reward (5.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5015685550839638
+Fraction of Purchases:  0.4925262963646429
+
+Parameters of run: hwindow 5, reward (0.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 5, reward (0.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 5, reward (0.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 5, reward (0.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 5, reward (0.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  1.0
+
+Parameters of run: hwindow 5, reward (0.1, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4983388704318937
+Fraction of Purchases:  0.023624953857511996
+
+Parameters of run: hwindow 5, reward (0.1, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  0.9516426725729051
+
+Parameters of run: hwindow 5, reward (0.1, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5014765596160945
+Fraction of Purchases:  0.9909560723514211
+
+Parameters of run: hwindow 5, reward (0.1, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  0.994093761535622
+
+Parameters of run: hwindow 5, reward (0.1, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  0.994093761535622
+
+Parameters of run: hwindow 5, reward (0.5, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4983388704318937
+Fraction of Purchases:  0.023624953857511996
+
+Parameters of run: hwindow 5, reward (0.5, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.497046880767811
+Fraction of Purchases:  0.5114433370247323
+
+Parameters of run: hwindow 5, reward (0.5, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5011074197120708
+Fraction of Purchases:  0.9544112218530824
+
+Parameters of run: hwindow 5, reward (0.5, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5020302694721299
+Fraction of Purchases:  0.9804355850867479
+
+Parameters of run: hwindow 5, reward (0.5, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5035068290882244
+Fraction of Purchases:  0.9889258028792912
+
+Parameters of run: hwindow 5, reward (1.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4983388704318937
+Fraction of Purchases:  0.023624953857511996
+
+Parameters of run: hwindow 5, reward (1.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.505906238464378
+Fraction of Purchases:  0.3298265042451089
+
+Parameters of run: hwindow 5, reward (1.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5018456995201181
+Fraction of Purchases:  0.8207825765965301
+
+Parameters of run: hwindow 5, reward (1.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5011074197120708
+Fraction of Purchases:  0.9544112218530824
+
+Parameters of run: hwindow 5, reward (1.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5020302694721299
+Fraction of Purchases:  0.9804355850867479
+
+Parameters of run: hwindow 5, reward (2.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4983388704318937
+Fraction of Purchases:  0.023624953857511996
+
+Parameters of run: hwindow 5, reward (2.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.5066445182724253
+Fraction of Purchases:  0.18696936138796605
+
+Parameters of run: hwindow 5, reward (2.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.5035068290882244
+Fraction of Purchases:  0.6009597637504615
+
+Parameters of run: hwindow 5, reward (2.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.5018456995201181
+Fraction of Purchases:  0.8207825765965301
+
+Parameters of run: hwindow 5, reward (2.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.5011074197120708
+Fraction of Purchases:  0.9544112218530824
+
+Parameters of run: hwindow 5, reward (5.0, 0.0), epsilon 0, discount 1
+Accuracy Score:  0.4983388704318937
+Fraction of Purchases:  0.023624953857511996
+
+Parameters of run: hwindow 5, reward (5.0, -0.1), epsilon 0, discount 1
+Accuracy Score:  0.511812476928756
+Fraction of Purchases:  0.10723514211886305
+
+Parameters of run: hwindow 5, reward (5.0, -0.5), epsilon 0, discount 1
+Accuracy Score:  0.505906238464378
+Fraction of Purchases:  0.3298265042451089
+
+Parameters of run: hwindow 5, reward (5.0, -1.0), epsilon 0, discount 1
+Accuracy Score:  0.497046880767811
+Fraction of Purchases:  0.5114433370247323
+
+Parameters of run: hwindow 5, reward (5.0, -2.0), epsilon 0, discount 1
+Accuracy Score:  0.4964931709117756
+Fraction of Purchases:  0.7272056109265411
+
+Parameters of run: hwindow 5, reward (0.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49963086009597635
+Fraction of Purchases:  0.9946474713916574
+
+Parameters of run: hwindow 5, reward (0.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.4998154300479882
+Fraction of Purchases:  0.9937246216315984
+
+Parameters of run: hwindow 5, reward (0.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5011074197120708
+Fraction of Purchases:  0.9961240310077519
+
+Parameters of run: hwindow 5, reward (0.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5003691399040237
+Fraction of Purchases:  0.9957548911037283
+
+Parameters of run: hwindow 5, reward (0.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5025839793281653
+Fraction of Purchases:  0.9953857511997047
+
+Parameters of run: hwindow 5, reward (0.1, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4974160206718346
+Fraction of Purchases:  0.024178663713547436
+
+Parameters of run: hwindow 5, reward (0.1, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5064599483204134
+Fraction of Purchases:  0.9549649317091178
+
+Parameters of run: hwindow 5, reward (0.1, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5012919896640827
+Fraction of Purchases:  0.9867109634551495
+
+Parameters of run: hwindow 5, reward (0.1, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.9898486526393503
+
+Parameters of run: hwindow 5, reward (0.1, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4994462901439646
+Fraction of Purchases:  0.9892949427833149
+
+Parameters of run: hwindow 5, reward (0.5, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.497046880767811
+Fraction of Purchases:  0.027870062753783682
+
+Parameters of run: hwindow 5, reward (0.5, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5012919896640827
+Fraction of Purchases:  0.5149501661129569
+
+Parameters of run: hwindow 5, reward (0.5, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5036913990402363
+Fraction of Purchases:  0.9518272425249169
+
+Parameters of run: hwindow 5, reward (0.5, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5007382798080473
+Fraction of Purchases:  0.9772978959025471
+
+Parameters of run: hwindow 5, reward (0.5, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5014765596160945
+Fraction of Purchases:  0.9832041343669251
+
+Parameters of run: hwindow 5, reward (1.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49926172019195275
+Fraction of Purchases:  0.033038021410114436
+
+Parameters of run: hwindow 5, reward (1.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.49520118124769286
+Fraction of Purchases:  0.3309339239571798
+
+Parameters of run: hwindow 5, reward (1.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5016611295681063
+Fraction of Purchases:  0.7936507936507936
+
+Parameters of run: hwindow 5, reward (1.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4998154300479882
+Fraction of Purchases:  0.9472129937246216
+
+Parameters of run: hwindow 5, reward (1.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5046142488002953
+Fraction of Purchases:  0.9771133259505352
+
+Parameters of run: hwindow 5, reward (2.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5012919896640827
+Fraction of Purchases:  0.03765227021040975
+
+Parameters of run: hwindow 5, reward (2.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.49630860095976376
+Fraction of Purchases:  0.19582871908453303
+
+Parameters of run: hwindow 5, reward (2.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.49667774086378735
+Fraction of Purchases:  0.5930232558139535
+
+Parameters of run: hwindow 5, reward (2.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5077519379844961
+Fraction of Purchases:  0.8163528977482466
+
+Parameters of run: hwindow 5, reward (2.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5022148394241418
+Fraction of Purchases:  0.9518272425249169
+
+Parameters of run: hwindow 5, reward (5.0, 0.0), epsilon 0.01, discount 1
+Accuracy Score:  0.4983388704318937
+Fraction of Purchases:  0.029531192321889995
+
+Parameters of run: hwindow 5, reward (5.0, -0.1), epsilon 0.01, discount 1
+Accuracy Score:  0.5011074197120708
+Fraction of Purchases:  0.1020671834625323
+
+Parameters of run: hwindow 5, reward (5.0, -0.5), epsilon 0.01, discount 1
+Accuracy Score:  0.5005537098560354
+Fraction of Purchases:  0.32447397563676633
+
+Parameters of run: hwindow 5, reward (5.0, -1.0), epsilon 0.01, discount 1
+Accuracy Score:  0.5055370985603543
+Fraction of Purchases:  0.5295311923218899
+
+Parameters of run: hwindow 5, reward (5.0, -2.0), epsilon 0.01, discount 1
+Accuracy Score:  0.49575489110372833
+Fraction of Purchases:  0.7242524916943521
+
+Parameters of run: hwindow 5, reward (0.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5007382798080473
+Fraction of Purchases:  0.9699150978220745
+
+Parameters of run: hwindow 5, reward (0.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5011074197120708
+Fraction of Purchases:  0.975452196382429
+
+Parameters of run: hwindow 5, reward (0.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5047988187523071
+Fraction of Purchases:  0.9736064968623108
+
+Parameters of run: hwindow 5, reward (0.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5022148394241418
+Fraction of Purchases:  0.97249907715024
+
+Parameters of run: hwindow 5, reward (0.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.49760059062384643
+Fraction of Purchases:  0.976375046142488
+
+Parameters of run: hwindow 5, reward (0.1, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5042451088962717
+Fraction of Purchases:  0.07345884090070137
+
+Parameters of run: hwindow 5, reward (0.1, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5035068290882244
+Fraction of Purchases:  0.9413067552602437
+
+Parameters of run: hwindow 5, reward (0.1, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5022148394241418
+Fraction of Purchases:  0.971391657438169
+
+Parameters of run: hwindow 5, reward (0.1, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  0.9708379475821336
+
+Parameters of run: hwindow 5, reward (0.1, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5007382798080473
+Fraction of Purchases:  0.969545957918051
+
+Parameters of run: hwindow 5, reward (0.5, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4964931709117756
+Fraction of Purchases:  0.06459948320413436
+
+Parameters of run: hwindow 5, reward (0.5, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5151347360649686
+Fraction of Purchases:  0.5369139904023625
+
+Parameters of run: hwindow 5, reward (0.5, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.49575489110372833
+Fraction of Purchases:  0.9365079365079365
+
+Parameters of run: hwindow 5, reward (0.5, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5022148394241418
+Fraction of Purchases:  0.9588409007013659
+
+Parameters of run: hwindow 5, reward (0.5, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  0.9686231081579919
+
+Parameters of run: hwindow 5, reward (1.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5001845699520118
+Fraction of Purchases:  0.07825765965300849
+
+Parameters of run: hwindow 5, reward (1.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5070136581764488
+Fraction of Purchases:  0.33942414174972313
+
+Parameters of run: hwindow 5, reward (1.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.491140642303433
+Fraction of Purchases:  0.8355481727574751
+
+Parameters of run: hwindow 5, reward (1.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5035068290882244
+Fraction of Purchases:  0.9368770764119602
+
+Parameters of run: hwindow 5, reward (1.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5003691399040237
+Fraction of Purchases:  0.9632705795496493
+
+Parameters of run: hwindow 5, reward (2.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4983388704318937
+Fraction of Purchases:  0.07567368032484312
+
+Parameters of run: hwindow 5, reward (2.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.5014765596160945
+Fraction of Purchases:  0.20062753783684018
+
+Parameters of run: hwindow 5, reward (2.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.5882244370616464
+
+Parameters of run: hwindow 5, reward (2.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.4988925802879291
+Fraction of Purchases:  0.7942045035068291
+
+Parameters of run: hwindow 5, reward (2.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5007382798080473
+Fraction of Purchases:  0.9389073458840901
+
+Parameters of run: hwindow 5, reward (5.0, 0.0), epsilon 0.05, discount 1
+Accuracy Score:  0.497046880767811
+Fraction of Purchases:  0.055924695459579184
+
+Parameters of run: hwindow 5, reward (5.0, -0.1), epsilon 0.05, discount 1
+Accuracy Score:  0.49317091177556294
+Fraction of Purchases:  0.11775562938353636
+
+Parameters of run: hwindow 5, reward (5.0, -0.5), epsilon 0.05, discount 1
+Accuracy Score:  0.4979697305278701
+Fraction of Purchases:  0.3517903285345146
+
+Parameters of run: hwindow 5, reward (5.0, -1.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5134736064968624
+Fraction of Purchases:  0.4953857511997047
+
+Parameters of run: hwindow 5, reward (5.0, -2.0), epsilon 0.05, discount 1
+Accuracy Score:  0.5005537098560354
+Fraction of Purchases:  0.766703580657069
+
+Parameters of run: hwindow 5, reward (0.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5051679586563308
+Fraction of Purchases:  0.9510889627168697
+
+Parameters of run: hwindow 5, reward (0.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5011074197120708
+Fraction of Purchases:  0.9525655223329642
+
+Parameters of run: hwindow 5, reward (0.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5023994093761536
+Fraction of Purchases:  0.9486895533407161
+
+Parameters of run: hwindow 5, reward (0.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5016611295681063
+Fraction of Purchases:  0.9479512735326688
+
+Parameters of run: hwindow 5, reward (0.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.4998154300479882
+Fraction of Purchases:  0.9475821336286453
+
+Parameters of run: hwindow 5, reward (0.1, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5031376891842008
+Fraction of Purchases:  0.10815799187892211
+
+Parameters of run: hwindow 5, reward (0.1, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5027685492801772
+Fraction of Purchases:  0.9187892211148025
+
+Parameters of run: hwindow 5, reward (0.1, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.4959394610557401
+Fraction of Purchases:  0.9448135843484681
+
+Parameters of run: hwindow 5, reward (0.1, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5071982281284607
+Fraction of Purchases:  0.9427833148763382
+
+Parameters of run: hwindow 5, reward (0.1, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.502953119232189
+Fraction of Purchases:  0.9466592838685862
+
+Parameters of run: hwindow 5, reward (0.5, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5040605389442598
+Fraction of Purchases:  0.11129568106312292
+
+Parameters of run: hwindow 5, reward (0.5, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.5057216685123662
+Fraction of Purchases:  0.5330380214101145
+
+Parameters of run: hwindow 5, reward (0.5, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5038759689922481
+Fraction of Purchases:  0.9217423403469915
+
+Parameters of run: hwindow 5, reward (0.5, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49815430047988185
+Fraction of Purchases:  0.9370616463639719
+
+Parameters of run: hwindow 5, reward (0.5, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49575489110372833
+Fraction of Purchases:  0.9453672942045035
+
+Parameters of run: hwindow 5, reward (1.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.11166482096714656
+
+Parameters of run: hwindow 5, reward (1.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.49963086009597635
+Fraction of Purchases:  0.3667404946474714
+
+Parameters of run: hwindow 5, reward (1.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.5007382798080473
+Fraction of Purchases:  0.8097083794758213
+
+Parameters of run: hwindow 5, reward (1.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.49575489110372833
+Fraction of Purchases:  0.9221114802510151
+
+Parameters of run: hwindow 5, reward (1.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5049833887043189
+Fraction of Purchases:  0.9427833148763382
+
+Parameters of run: hwindow 5, reward (2.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5035068290882244
+Fraction of Purchases:  0.10852713178294573
+
+Parameters of run: hwindow 5, reward (2.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.4968623108157992
+Fraction of Purchases:  0.23477297895902546
+
+Parameters of run: hwindow 5, reward (2.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.4898486526393503
+Fraction of Purchases:  0.587670727205611
+
+Parameters of run: hwindow 5, reward (2.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5073827980804725
+Fraction of Purchases:  0.8322259136212624
+
+Parameters of run: hwindow 5, reward (2.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5053525286083426
+Fraction of Purchases:  0.9276485788113695
+
+Parameters of run: hwindow 5, reward (5.0, 0.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5001845699520118
+Fraction of Purchases:  0.11074197120708748
+
+Parameters of run: hwindow 5, reward (5.0, -0.1), epsilon 0.1, discount 1
+Accuracy Score:  0.4955703211517165
+Fraction of Purchases:  0.15227021040974528
+
+Parameters of run: hwindow 5, reward (5.0, -0.5), epsilon 0.1, discount 1
+Accuracy Score:  0.49815430047988185
+Fraction of Purchases:  0.373015873015873
+
+Parameters of run: hwindow 5, reward (5.0, -1.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5027685492801772
+Fraction of Purchases:  0.5234403839055002
+
+Parameters of run: hwindow 5, reward (5.0, -2.0), epsilon 0.1, discount 1
+Accuracy Score:  0.5018456995201181
+Fraction of Purchases:  0.7284976005906239
+
+Parameters of run: hwindow 5, reward (0.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5
+Fraction of Purchases:  0.8971945367294204
+
+Parameters of run: hwindow 5, reward (0.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5014765596160945
+Fraction of Purchases:  0.8957179771133259
+
+Parameters of run: hwindow 5, reward (0.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5068290882244371
+Fraction of Purchases:  0.8892580287929125
+
+Parameters of run: hwindow 5, reward (0.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5044296788482835
+Fraction of Purchases:  0.9019933554817275
+
+Parameters of run: hwindow 5, reward (0.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49760059062384643
+Fraction of Purchases:  0.9084533038021411
+
+Parameters of run: hwindow 5, reward (0.1, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4985234403839055
+Fraction of Purchases:  0.16851236618678478
+
+Parameters of run: hwindow 5, reward (0.1, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5075673680324843
+Fraction of Purchases:  0.8767072720561092
+
+Parameters of run: hwindow 5, reward (0.1, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.49224806201550386
+Fraction of Purchases:  0.8931339977851606
+
+Parameters of run: hwindow 5, reward (0.1, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49926172019195275
+Fraction of Purchases:  0.8938722775932079
+
+Parameters of run: hwindow 5, reward (0.1, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5051679586563308
+Fraction of Purchases:  0.9027316352897748
+
+Parameters of run: hwindow 5, reward (0.5, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49667774086378735
+Fraction of Purchases:  0.1729420450350683
+
+Parameters of run: hwindow 5, reward (0.5, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5051679586563308
+Fraction of Purchases:  0.5387596899224806
+
+Parameters of run: hwindow 5, reward (0.5, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5064599483204134
+Fraction of Purchases:  0.8885197489848653
+
+Parameters of run: hwindow 5, reward (0.5, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4935400516795866
+Fraction of Purchases:  0.8933185677371724
+
+Parameters of run: hwindow 5, reward (0.5, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5036913990402363
+Fraction of Purchases:  0.8938722775932079
+
+Parameters of run: hwindow 5, reward (1.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4953857511997047
+Fraction of Purchases:  0.15725359911406422
+
+Parameters of run: hwindow 5, reward (1.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5073827980804725
+Fraction of Purchases:  0.3652639350313769
+
+Parameters of run: hwindow 5, reward (1.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.5025839793281653
+Fraction of Purchases:  0.789405684754522
+
+Parameters of run: hwindow 5, reward (1.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49778516057585825
+Fraction of Purchases:  0.8746770025839793
+
+Parameters of run: hwindow 5, reward (1.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.49723145071982283
+Fraction of Purchases:  0.8866740494647471
+
+Parameters of run: hwindow 5, reward (2.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.4955703211517165
+Fraction of Purchases:  0.16149870801033592
+
+Parameters of run: hwindow 5, reward (2.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5005537098560354
+Fraction of Purchases:  0.3034330011074197
+
+Parameters of run: hwindow 5, reward (2.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.508859357696567
+Fraction of Purchases:  0.5937615356220007
+
+Parameters of run: hwindow 5, reward (2.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5012919896640827
+Fraction of Purchases:  0.7803617571059431
+
+Parameters of run: hwindow 5, reward (2.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5092284976005906
+Fraction of Purchases:  0.8794758213362864
+
+Parameters of run: hwindow 5, reward (5.0, 0.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5009228497600591
+Fraction of Purchases:  0.17792543373938724
+
+Parameters of run: hwindow 5, reward (5.0, -0.1), epsilon 0.2, discount 1
+Accuracy Score:  0.5007382798080473
+Fraction of Purchases:  0.2009966777408638
+
+Parameters of run: hwindow 5, reward (5.0, -0.5), epsilon 0.2, discount 1
+Accuracy Score:  0.48929494278331487
+Fraction of Purchases:  0.39368770764119604
+
+Parameters of run: hwindow 5, reward (5.0, -1.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5022148394241418
+Fraction of Purchases:  0.5572166851236618
+
+Parameters of run: hwindow 5, reward (5.0, -2.0), epsilon 0.2, discount 1
+Accuracy Score:  0.5070136581764488
+Fraction of Purchases:  0.7639350313768919
+
+Parameters of run: hwindow 5, reward (0.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49612403100775193
+Fraction of Purchases:  0.7515688445921004
+
+Parameters of run: hwindow 5, reward (0.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5083056478405316
+Fraction of Purchases:  0.751937984496124
+
+Parameters of run: hwindow 5, reward (0.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5011074197120708
+Fraction of Purchases:  0.7488002953119233
+
+Parameters of run: hwindow 5, reward (0.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5049833887043189
+Fraction of Purchases:  0.7452934662236987
+
+Parameters of run: hwindow 5, reward (0.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5055370985603543
+Fraction of Purchases:  0.7495385751199705
+
+Parameters of run: hwindow 5, reward (0.1, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49187892211148027
+Fraction of Purchases:  0.32650424510889625
+
+Parameters of run: hwindow 5, reward (0.1, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4894795127353267
+Fraction of Purchases:  0.7486157253599114
+
+Parameters of run: hwindow 5, reward (0.1, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5049833887043189
+Fraction of Purchases:  0.7556293835363603
+
+Parameters of run: hwindow 5, reward (0.1, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4939091915836102
+Fraction of Purchases:  0.7475083056478405
+
+Parameters of run: hwindow 5, reward (0.1, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5033222591362126
+Fraction of Purchases:  0.7410483573274271
+
+Parameters of run: hwindow 5, reward (0.5, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.518641565153193
+Fraction of Purchases:  0.35511258767072723
+
+Parameters of run: hwindow 5, reward (0.5, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5164267257290514
+Fraction of Purchases:  0.5459579180509413
+
+Parameters of run: hwindow 5, reward (0.5, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5040605389442598
+Fraction of Purchases:  0.7469545957918051
+
+Parameters of run: hwindow 5, reward (0.5, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5169804355850868
+Fraction of Purchases:  0.7558139534883721
+
+Parameters of run: hwindow 5, reward (0.5, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.4955703211517165
+Fraction of Purchases:  0.7513842746400886
+
+Parameters of run: hwindow 5, reward (1.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5097822074566261
+Fraction of Purchases:  0.330749354005168
+
+Parameters of run: hwindow 5, reward (1.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5020302694721299
+Fraction of Purchases:  0.4603174603174603
+
+Parameters of run: hwindow 5, reward (1.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5016611295681063
+Fraction of Purchases:  0.7050572166851237
+
+Parameters of run: hwindow 5, reward (1.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5075673680324843
+Fraction of Purchases:  0.7589516426725729
+
+Parameters of run: hwindow 5, reward (1.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5038759689922481
+Fraction of Purchases:  0.748984865263935
+
+Parameters of run: hwindow 5, reward (2.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49815430047988185
+Fraction of Purchases:  0.3268733850129199
+
+Parameters of run: hwindow 5, reward (2.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.5049833887043189
+Fraction of Purchases:  0.3949796973052787
+
+Parameters of run: hwindow 5, reward (2.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.49520118124769286
+Fraction of Purchases:  0.5863787375415282
+
+Parameters of run: hwindow 5, reward (2.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5027685492801772
+Fraction of Purchases:  0.6950904392764858
+
+Parameters of run: hwindow 5, reward (2.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5108896271686969
+Fraction of Purchases:  0.7449243263196752
+
+Parameters of run: hwindow 5, reward (5.0, 0.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5077519379844961
+Fraction of Purchases:  0.3242894056847545
+
+Parameters of run: hwindow 5, reward (5.0, -0.1), epsilon 0.5, discount 1
+Accuracy Score:  0.4935400516795866
+Fraction of Purchases:  0.3477297895902547
+
+Parameters of run: hwindow 5, reward (5.0, -0.5), epsilon 0.5, discount 1
+Accuracy Score:  0.5042451088962717
+Fraction of Purchases:  0.47434477667035807
+
+Parameters of run: hwindow 5, reward (5.0, -1.0), epsilon 0.5, discount 1
+Accuracy Score:  0.49077150239940937
+Fraction of Purchases:  0.5627537836840163
+
+Parameters of run: hwindow 5, reward (5.0, -2.0), epsilon 0.5, discount 1
+Accuracy Score:  0.5090439276485789
+Fraction of Purchases:  0.6718346253229974
+
+Parameters of run: hwindow 5, reward (0.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.505906238464378
+Fraction of Purchases:  0.49335548172757476
+
+Parameters of run: hwindow 5, reward (0.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.4868955334071613
+Fraction of Purchases:  0.49021779254337394
+
+Parameters of run: hwindow 5, reward (0.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5033222591362126
+Fraction of Purchases:  0.4985234403839055
+
+Parameters of run: hwindow 5, reward (0.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5018456995201181
+Fraction of Purchases:  0.49630860095976376
+
+Parameters of run: hwindow 5, reward (0.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5031376891842008
+Fraction of Purchases:  0.5035068290882244
+
+Parameters of run: hwindow 5, reward (0.1, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5062753783684016
+Fraction of Purchases:  0.5062753783684016
+
+Parameters of run: hwindow 5, reward (0.1, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5012919896640827
+Fraction of Purchases:  0.5020302694721299
+
+Parameters of run: hwindow 5, reward (0.1, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5005537098560354
+Fraction of Purchases:  0.49058693244739754
+
+Parameters of run: hwindow 5, reward (0.1, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.494093761535622
+Fraction of Purchases:  0.4944629014396456
+
+Parameters of run: hwindow 5, reward (0.1, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5068290882244371
+Fraction of Purchases:  0.4994462901439646
+
+Parameters of run: hwindow 5, reward (0.5, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49815430047988185
+Fraction of Purchases:  0.5191952750092285
+
+Parameters of run: hwindow 5, reward (0.5, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.49612403100775193
+Fraction of Purchases:  0.49317091177556294
+
+Parameters of run: hwindow 5, reward (0.5, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4985234403839055
+Fraction of Purchases:  0.4959394610557401
+
+Parameters of run: hwindow 5, reward (0.5, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49520118124769286
+Fraction of Purchases:  0.5040605389442598
+
+Parameters of run: hwindow 5, reward (0.5, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4985234403839055
+Fraction of Purchases:  0.4896640826873385
+
+Parameters of run: hwindow 5, reward (1.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5025839793281653
+Fraction of Purchases:  0.49187892211148027
+
+Parameters of run: hwindow 5, reward (1.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5022148394241418
+Fraction of Purchases:  0.4774824658545589
+
+Parameters of run: hwindow 5, reward (1.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4915097822074566
+Fraction of Purchases:  0.5036913990402363
+
+Parameters of run: hwindow 5, reward (1.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5036913990402363
+Fraction of Purchases:  0.49483204134366926
+
+Parameters of run: hwindow 5, reward (1.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49778516057585825
+Fraction of Purchases:  0.5103359173126615
+
+Parameters of run: hwindow 5, reward (2.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4883720930232558
+Fraction of Purchases:  0.5035068290882244
+
+Parameters of run: hwindow 5, reward (2.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5005537098560354
+Fraction of Purchases:  0.49058693244739754
+
+Parameters of run: hwindow 5, reward (2.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.5001845699520118
+Fraction of Purchases:  0.4994462901439646
+
+Parameters of run: hwindow 5, reward (2.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.4988925802879291
+Fraction of Purchases:  0.5003691399040237
+
+Parameters of run: hwindow 5, reward (2.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.49335548172757476
+Fraction of Purchases:  0.5084902177925433
+
+Parameters of run: hwindow 5, reward (5.0, 0.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5062753783684016
+Fraction of Purchases:  0.491140642303433
+
+Parameters of run: hwindow 5, reward (5.0, -0.1), epsilon 1.0, discount 1
+Accuracy Score:  0.5044296788482835
+Fraction of Purchases:  0.4944629014396456
+
+Parameters of run: hwindow 5, reward (5.0, -0.5), epsilon 1.0, discount 1
+Accuracy Score:  0.4990771502399409
+Fraction of Purchases:  0.49575489110372833
+
+Parameters of run: hwindow 5, reward (5.0, -1.0), epsilon 1.0, discount 1
+Accuracy Score:  0.5105204872646734
+Fraction of Purchases:  0.4913252122554448
+
+Parameters of run: hwindow 5, reward (5.0, -2.0), epsilon 1.0, discount 1
+Accuracy Score:  0.502953119232189
+Fraction of Purchases:  0.5073827980804725

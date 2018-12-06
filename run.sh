@@ -15,16 +15,16 @@ penalties=( 0 -.1 -.5 -1 -2 )
 
 trap "exit" INT
 
-#for i in "${hwindows[@]}"
-#do
-#    for e in "${epsilons[@]}"
-#    do
-#        for r in "${rewards[@]}"
-#        do
-#            for p in "${penalties[@]}"
-#            do
-#                python run.py -hi $i -e $e -r $r $p >> results.txt
-#            done
-#        done
-#    done
-#done
+for i in "${hwindows[@]}"
+do
+    for e in "${epsilons[@]}"
+    do
+        for r in "${rewards[@]}"
+        do
+            for p in "${penalties[@]}"
+            do
+                python run.py -hi $i -e $e -r $r $p >> results.txt
+            done
+        done
+    done
+done
