@@ -1,8 +1,4 @@
 import random
-import numpy as np
-# from keras.models import Sequential
-# from keras.layers.core import Dense
-# from keras.optimizers import Adam
 
 class MDP:
 

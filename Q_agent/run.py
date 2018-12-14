@@ -74,7 +74,7 @@ else:
 
 #########################################################
 
-hist = gen_hist('histories/amazon.csv')
+hist = gen_hist('../histories/amazon.csv')
 p = np.copy(hwindow)  # pointer index to history (start at 4th element so we have a history window
 states = gen_states(hwindow)
 actions = ['buy', 'wait']
