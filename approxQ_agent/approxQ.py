@@ -5,15 +5,17 @@ from collections import defaultdict
 
 class ApproxQ():
 
-    def __init__(self, mode, actions, data, epsilon, discount):
+    def __init__(self, mode, actions, data, epsilon, discount, alpha, nfeats):
         self.mode = mode  # train or test
         self.actions = actions  # list of actions
         self.data = data  # market history to walk through in the form of a 2D array
         self.epsilon = epsilon  # randomness of actions
         self.discount = discount  # discount factor
+        self.alpha = alpha  # learning rate
+        self.nfeats = nfeats  # number of features
 
         # initialize linear model w/ weights dictionary for each action
-        self.models = {action: defaultdict(int) for action in self.actions}
+        self.models = {action: np.zeros(self.nfeats) for action in self.actions}
 
     def switch_mode(self, new_mode, new_data):
         self.mode = new_mode
@@ -38,7 +40,15 @@ class ApproxQ():
             - Takes in action a, state s, next state sp, and reward r
             - Updates weights in corresponding linear function approximation
         '''
-        pass
+        old_q = self.predict(a, s)
+        new_q = max([self.predict(new_action, sp) for new_action in self.actions])
+
+        if a == 'buy':
+            self.models['buy'] += self.alpha * (r + self.discount * new_q - old_q) * np.array(s)
+
+        else:
+            self.models['wait'] += self.alpha * (r + self.discount * new_q - old_q) * np.array(s)
+
 
     def predict(self, a, s):
         '''
@@ -46,7 +56,15 @@ class ApproxQ():
             - Performs function approximation to predict q-value
             - Returns q-value prediction
         '''
-        pass
+        if a == 'buy':
+            weights = self.models['buy']
+            q_val = np.dot(weights, np.array(s))
+
+        else:
+            weights = self.models['wait']
+            q_val = np.dot(weights, np.array(s))
+
+        return q_val
 
 
     def epsilon_greedy(self, s, eps=0.5):
@@ -74,8 +92,8 @@ class ApproxQ():
             if self.w == len(self.data):
                 return None  # We are finished traversing data
 
-        return tuple(self.data[self.w][self.t])
 
+        return tuple(np.append(self.data[self.w][self.t], self.t))
 
 
     def learn(self, iters=100):
@@ -84,7 +102,7 @@ class ApproxQ():
         '''
         self.w = 0  # window index
         self.t = 0  # timestep index within window
-        s = tuple(self.data[self.w][self.t]) # init state
+        s = tuple(np.append(self.data[self.w][self.t], self.t)) # init state
         actions = []
         regret = []
         for _ in range(iters):
@@ -92,7 +110,8 @@ class ApproxQ():
             actions.append(a)
 
             r = self.reward(a)
-            regret.append(r)
+            if a == 'buy':
+                regret.append(r)
 
             s_prime = self.transition(a)
 
