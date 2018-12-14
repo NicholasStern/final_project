@@ -7,6 +7,7 @@ from keras.layers.core import Dense
 from keras.optimizers import Adam
 
 
+
 def make_nn(state_dim, num_hidden_layers, num_units):
     model = Sequential()
     model.add(Dense(num_units, input_dim = state_dim, activation='relu'))
@@ -16,19 +17,16 @@ def make_nn(state_dim, num_hidden_layers, num_units):
     model.compile(loss='mse', optimizer=Adam())
     return model
 
-class ApproxQ:
-
-
-
-    def __init__(self, mode, actions, data, epsilon, discount):
+class NNQ:
+    def __init__(self, mode, actions, data, epsilon, discount, nfeats, num_layers = 3, num_units = 100):
         self.mode = mode  # train or test
         self.actions = actions  # list of actions
         self.data = data  # market history to walk through in the form of a 2D array
         self.epsilon = epsilon  # randomness of actions
         self.discount = discount  # discount factor
-        dim = 1
-        num_layers = 3
-        num_units = 4
+        self.nfeats = nfeats  # number of features
+        dim = self.nfeats
+
         # initialize linear model w/ weights dictionary for each action
         self.models = dict([(a, make_nn(dim, num_layers, num_units)) for a in actions])
 
@@ -45,10 +43,23 @@ class ApproxQ:
         if a == 'buy' or self.t == (len(self.data[self.w])-1):  # force agent to buy at end of time frame
             choice = self.data[self.w][self.t][-1]  # close price on chosen day
             best = min([x[-1] for x in self.data[self.w]])  # best close price
-            r = (choice - best)/best
-            return r
+            regret = (choice - best)/best
+            reward = 0
+            if 0 <= regret < 0.005:
+                reward = 50
+            elif 0.005 <= regret < 0.01:
+                reward = 40
+            elif 0.01 <= regret < 0.015:
+                reward = 30
+            elif 0.015 <= regret < 0.02:
+                reward = 20
+            elif 0.02 <= regret < 0.025:
+                reward = 10
+            else:
+                reward = 0
+            return regret, reward
         else:
-            return 0
+            return 0, 0
 
     def value(self, s):
         return max(self.predict(a, s) for a in self.actions)
@@ -60,7 +71,7 @@ class ApproxQ:
             - s and the desired output is t
         '''
         t = r + self.discount * self.value(sp)
-        X = np.array(s)
+        X = np.array(s).reshape(1,self.nfeats)
         Y = np.array(t)
         self.models[a].fit(X, Y, epochs=1)
 
@@ -70,9 +81,8 @@ class ApproxQ:
             - Performs function approximation to predict q-value
             - Returns q-value prediction
         '''
-        # print(s)
-        print(np.array(s).shape)
-        return self.models[a].predict(np.array(s))
+
+        return self.models[a].predict(np.array(s).reshape(1, self.nfeats))
 
 
     def epsilon_greedy(self, s, eps=0.5):
@@ -84,7 +94,7 @@ class ApproxQ:
         else:  # False with prob 1-eps, greedy action
             q_vals = np.zeros(len(self.actions))
             for i, a in enumerate(self.actions):
-                print('hi',self.predict(a, s).shape)
+
                 q_vals[i] = self.predict(a, s)
 
             return self.actions[q_vals.argmax()]
@@ -101,7 +111,8 @@ class ApproxQ:
             if self.w == len(self.data):
                 return None  # We are finished traversing data
 
-        return tuple(self.data[self.w][self.t])
+
+        return tuple(np.append(self.data[self.w][self.t], self.t))
 
 
 
@@ -111,15 +122,16 @@ class ApproxQ:
         '''
         self.w = 0  # window index
         self.t = 0  # timestep index within window
-        s = tuple(self.data[self.w][self.t]) # init state
+        s = tuple(np.append(self.data[self.w][self.t], self.t)) # init state
         actions = []
-        regret = []
+        regrets = []
         for _ in range(iters):
             a = self.epsilon_greedy(s, self.epsilon)
             actions.append(a)
 
-            r = self.reward(a)
-            regret.append(r)
+            regret, reward = self.reward(a)
+            if a == 'buy':
+                regrets.append(regret)
 
             s_prime = self.transition(a)
 
@@ -127,14 +139,14 @@ class ApproxQ:
                 break
 
             if self.mode == 'train':
-                self.update(a, s, s_prime, r)
+                self.update(a, s, s_prime, reward)
 
             s = s_prime
 
-        return actions, regret
+        return actions, regrets
 
 import pandas as pd
-import numpy as np
+from collections import Counter
 
 def gen_data(path, window_size):
     # read in history
@@ -154,22 +166,32 @@ def gen_data(path, window_size):
 
     return train, val, test
 
+def evaluate(title, actions, regret):
+    ac = Counter(actions)
+    purch = ac['buy'] / len(actions)
 
+    print('{} purchase Fraction: {:.4f}'.format(title, purch))
+    print('{} avg. regret: {:.4f}'.format(title, np.mean(regret)))
 
 ## Initialize Parameters
 window_size = 5
 train, val, test = gen_data('../histories/apple.csv', window_size)
 actions = ['buy', 'wait']
-epsilon = 0
-discount = 1
+epsilon = .3
+discount = .9
+nfeats = 5
+num_layers = 20
+num_units = 100
+
 
 ## Pass to Approximate Q-Learning Agent
-agent = ApproxQ('train', actions, train, epsilon, discount)
+agent = NNQ('train', actions, train, epsilon, discount, nfeats, num_layers, num_units)
 train_actions, train_regret = agent.learn()
+evaluate('train', train_actions, train_regret)
 
-agent.switch_mode('test', val)
+agent.switch_mode('val', val)
 val_actions, val_regret = agent.learn()
-
+evaluate('val', val_actions, val_regret)
 
 
 
