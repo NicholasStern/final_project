@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from approxQ import ApproxQ
+from collections import Counter
 
 def gen_data(path, window_size):
     # read in history
@@ -20,19 +21,27 @@ def gen_data(path, window_size):
 
     return train, val, test
 
-def evaluate(data, regret):
-    pass
+def evaluate(title, actions, regret):
+    ac = Counter(actions)
+    purch = ac['buy'] / len(actions)
+
+    print('{} purchase Fraction: {:.4f}'.format(title, purch))
+    print('{} avg. regret: {:.4f}'.format(title, np.mean(regret)))
 
 ## Initialize Parameters
 window_size = 5
 train, val, test = gen_data('../histories/apple.csv', window_size)
 actions = ['buy', 'wait']
-epsilon = 0
+epsilon = .2
 discount = 1
+alpha = .1
+nfeats = 5
 
 ## Pass to Approximate Q-Learning Agent
-agent = ApproxQ('train', actions, train, epsilon, discount)
+agent = ApproxQ('train', actions, train, epsilon, discount, alpha, nfeats)
 train_actions, train_regret = agent.learn()
+evaluate('train', train_actions, train_regret)
 
 agent.switch_mode('test', val)
 val_actions, val_regret = agent.learn()
+evaluate('val', val_actions, val_regret)
