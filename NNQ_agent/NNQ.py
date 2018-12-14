@@ -26,7 +26,7 @@ class ApproxQ:
         self.data = data  # market history to walk through in the form of a 2D array
         self.epsilon = epsilon  # randomness of actions
         self.discount = discount  # discount factor
-        dim = 4
+        dim = 1
         num_layers = 3
         num_units = 4
         # initialize linear model w/ weights dictionary for each action
@@ -43,7 +43,9 @@ class ApproxQ:
         '''
 
         if a == 'buy' or self.t == (len(self.data[self.w])-1):  # force agent to buy at end of time frame
-            r = (self.data[self.w][self.t] - min(self.data[self.w]))/min(self.data[self.w])
+            choice = self.data[self.w][self.t][-1]  # close price on chosen day
+            best = min([x[-1] for x in self.data[self.w]])  # best close price
+            r = (choice - best)/best
             return r
         else:
             return 0
@@ -68,6 +70,8 @@ class ApproxQ:
             - Performs function approximation to predict q-value
             - Returns q-value prediction
         '''
+        # print(s)
+        print(np.array(s).shape)
         return self.models[a].predict(np.array(s))
 
 
@@ -80,6 +84,7 @@ class ApproxQ:
         else:  # False with prob 1-eps, greedy action
             q_vals = np.zeros(len(self.actions))
             for i, a in enumerate(self.actions):
+                print('hi',self.predict(a, s).shape)
                 q_vals[i] = self.predict(a, s)
 
             return self.actions[q_vals.argmax()]
