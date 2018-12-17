@@ -32,7 +32,7 @@ def evaluate(title, actions, regret):
 window_size = 5
 train, val, test = gen_data('../histories/apple.csv', window_size)
 actions = ['buy', 'wait']
-epsilon = .2
+epsilon = 0
 discount = 1
 alpha = .1
 nfeats = 5

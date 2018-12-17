@@ -43,21 +43,22 @@ class NNQ:
         if a == 'buy' or self.t == (len(self.data[self.w])-1):  # force agent to buy at end of time frame
             choice = self.data[self.w][self.t][-1]  # close price on chosen day
             best = min([x[-1] for x in self.data[self.w]])  # best close price
-            regret = (choice - best)/best
-            reward = 0
-            if 0 <= regret < 0.005:
-                reward = 50
-            elif 0.005 <= regret < 0.01:
-                reward = 40
-            elif 0.01 <= regret < 0.015:
-                reward = 30
-            elif 0.015 <= regret < 0.02:
-                reward = 20
-            elif 0.02 <= regret < 0.025:
-                reward = 10
-            else:
-                reward = 0
-            return regret, reward
+            regret = choice - best
+            # reward = 0
+            # if 0 <= regret < 0.005:
+            #     reward = 50
+            # elif 0.005 <= regret < 0.01:
+            #     reward = 40
+            # elif 0.01 <= regret < 0.015:
+            #     reward = 30
+            # elif 0.015 <= regret < 0.02:
+            #     reward = 20
+            # elif 0.02 <= regret < 0.025:
+            #     reward = 10
+            # else:
+            #     reward = 0
+            # return regret, reward
+            return regret, regret
         else:
             return 0, 0
 

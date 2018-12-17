@@ -30,7 +30,7 @@ class ApproxQ():
         if a == 'buy' or self.t == (len(self.data[self.w])-1):  # force agent to buy at end of time frame
             choice = self.data[self.w][self.t][-1]  # close price on chosen day
             best = min([x[-1] for x in self.data[self.w]])  # best close price
-            r = (choice - best)/best
+            r = choice - best
             return r
         else:
             return 0
