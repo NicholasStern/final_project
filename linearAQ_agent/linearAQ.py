@@ -16,10 +16,9 @@ class LinearAQ():
         # initialize linear model w/ weights dictionary for each action
         self.models = {action: np.zeros(self.states.shape[-1]) for action in self.actions}
 
-    def switch_mode(self, new_mode, new_states, epsilon=0):
+    def switch_mode(self, new_mode, new_states):
         self.mode = new_mode
         self.states = new_states
-        self.epsilon = epsilon
 
     def reset(self):
         '''
@@ -77,6 +76,9 @@ class LinearAQ():
         '''
             - Takes in state and epsilon and returns action
         '''
+        if self.mode == 'test':
+            eps = 0
+
         if random.random() < eps:  # True with prob eps, random action
             return self.actions[random.randint(0,len(self.actions)-1)]
         else:  # False with prob 1-eps, greedy action
