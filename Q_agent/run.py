@@ -5,7 +5,6 @@ from collections import Counter
 import argparse
 import h5py
 
-
 def gen_hist(path):
     # imports history from csv
     df = pd.read_csv(path)
@@ -66,12 +65,13 @@ else:
 if args.epsilon:
     epsilon = args.epsilon
 else:
-    epsilon = 0  # default
+    epsilon = 0.05  # default
 
 if args.discount:
     discount_factor = args.discount
 else:
     discount_factor = 1  # default
+
 
 #########################################################
 
@@ -109,7 +109,6 @@ def evaluate(hist, actions):
     assert len(actions) == (len(hist) - (hwindow +1))
     actions = list(map(lambda x: 1 if x == "buy" else 0, actions))  # if want to buy if we expect price to increase
     return np.sum(np.array(actions) == np.array(hist[hwindow+1:]))/len(actions)
-
 
 stock_agent = MDP(states, actions, transition_model, reward_fn, p, hist, hwindow, discount_factor)
 Q = TabularQ(stock_agent.states, stock_agent.actions)
@@ -193,7 +192,7 @@ history_size = hwindow - 1
 train, val, test = gen_episode_states('../histories/Apple_cleaned.csv', window_size, history_size)
 train_new, val_new, test_new = gen_states_new_agents('../histories/Apple_cleaned.csv', window_size, history_size)
 
-def evaluate_agent(agent, states_data, states_new, window_size):
+def evaluate_agent(agent, states_data, states_new, window_size, verbose=True):
     """
     This evaluation is based on how much the close price is lower when the
     agent decides to buy compared to the initial price of the time window.
@@ -209,6 +208,7 @@ def evaluate_agent(agent, states_data, states_new, window_size):
                 never_bought_count += 1
                 time_bought[window_size] += 1
                 scores.append(-state_new[-2])
+
                 break
             else:
                 # Get the best action for this state
@@ -219,12 +219,64 @@ def evaluate_agent(agent, states_data, states_new, window_size):
                     break
     score = np.mean(scores)
     proportion_no_action = never_bought_count / len(states_data) * 100
-    print("Average score for the agent is {} and doesn't buy in {}% of the cases.".format(score, proportion_no_action))
-    for t, c in enumerate(time_bought):
-        if t < window_size:
-            print("t=%i  Bought %i times." % (t, c))
-        else:
-            print("Did not buy %i times." % c)
+
+    if verbose:
+        print("Average score for the agent is {} and doesn't buy in {}% of the cases.".format(score, proportion_no_action))
+        for t, c in enumerate(time_bought):
+            if t < window_size:
+                print("t=%i  Bought %i times." % (t, c))
+            else:
+                print("Did not buy %i times." % c)
+
     return score, proportion_no_action, time_bought
 
-evaluate_agent(Q, test, test_new, window_size)
+def evaluate_agent_function(agent, states_data, verbose):
+    return evaluate_agent(agent, states_data, test_new, window_size, verbose=verbose)
+
+import random
+
+def evaluate_agent_advanced(agent, states_data, n=100):
+    random.seed(123)
+
+    score_all = []
+    proportion_no_action_all = []
+    time_bought_all = []
+    for i in range(n):
+        # Learns with epsilon-greedy algorithm, which is stochastic
+
+        hist = gen_hist('../histories/Apple_cleaned.csv')
+        p = np.copy(
+            hwindow)  # pointer index to history (start at 4th element so we have a history window
+        states = gen_states(hwindow)
+        actions = ['buy', 'wait']
+
+        stock_agent = MDP(states, actions, transition_model, reward_fn, p,
+                          hist, hwindow, discount_factor)
+        agent = TabularQ(stock_agent.states, stock_agent.actions)
+        agent, _ = Q_learn(stock_agent, agent, iters=2 * len(hist[p:-1]) + 1,
+                             eps=epsilon)  # setting eps = 0 means no epsilon-greedy
+
+        score, proportion_no_action, time_bought = evaluate_agent_function(agent, states_data, verbose=False)
+        score_all.append(score)
+        proportion_no_action_all.append(proportion_no_action)
+        time_bought_all.append(time_bought)
+    score_mean = np.mean(score_all)
+    score_std = np.std(score_all)
+    proportion_no_action_mean = np.mean(proportion_no_action_all)
+    proportion_no_action_std = np.std(proportion_no_action_all)
+    time_bought_mean = np.mean(time_bought_all, axis=0)
+    time_bought_std = np.std(time_bought_all, axis=0)
+
+    print("Average profit for the agent is {:.4f} (+/- {:.4f}) and doesn't "
+          "buy in {:.2f}% (+/- {:.2f}%)"
+          " of the cases.".format(score_mean,
+                                  score_std,
+                                  proportion_no_action_mean,
+                                  proportion_no_action_std))
+    for t, (m, s) in enumerate(zip(time_bought_mean, time_bought_std)):
+        if t < len(time_bought_mean) - 1:
+            print("t={}  Bought {:.2f} (+/- {:.2f}) times.".format(t, m, s))
+        else:
+            print("Did not buy {:.2f} (+/- {:.2f}) times.".format(m, s))
+
+evaluate_agent_advanced(Q, test, n=100)

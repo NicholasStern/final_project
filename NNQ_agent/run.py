@@ -1,6 +1,6 @@
 import sys
 sys.path.append('..')
-from utils import gen_states, evaluate_agent
+from utils import gen_states, evaluate_agent_advanced
 from collections import Counter
 import numpy as np
 from NNQ import NNQ
@@ -34,5 +34,6 @@ agent.switch_mode('val', val)
 val_actions, val_profit, val_regret = agent.learn()
 evaluate('val', val_actions, val_profit, val_regret)
 
-evaluate_agent(agent, test)
+agent.switch_mode('train', train)
+evaluate_agent_advanced(agent, test, n=100)
 
