@@ -1,9 +1,10 @@
 import numpy as np
-from mdp import MDP, TabularQ, Q_learn
+from mdp import MDP, TabularQ, Q_learn, epsilon_greedy
 import pandas as pd
 from collections import Counter
 import argparse
 import h5py
+
 
 def gen_hist(path):
     # imports history from csv
@@ -74,7 +75,7 @@ else:
 
 #########################################################
 
-hist = gen_hist('../histories/amazon.csv')
+hist = gen_hist('../histories/Apple_cleaned.csv')
 p = np.copy(hwindow)  # pointer index to history (start at 4th element so we have a history window
 states = gen_states(hwindow)
 actions = ['buy', 'wait']
@@ -143,3 +144,87 @@ with h5py.File("results.hdf5", mode='a') as f:
         curr_data[...] = data
     except:  # otherwise create it
         f.create_dataset(name, data=data)
+
+def gen_episode_states(path, window_size, history_size):
+    # read in data
+    df = gen_hist(path)
+
+    df_split = np.array([df[i-history_size:i+window_size] for i in range(history_size, len(df) - window_size - 1, window_size)][:-1])
+
+    result_states = []
+    for episode in df_split:
+        episode_states = []
+        for t in range(window_size):
+            episode_states.append(tuple(episode[t:t+history_size+1].reshape(-1)))
+        result_states.append(episode_states)
+
+    # split into train/val/test (80%, 10%, 10%)
+    train = result_states[:int(.8 * len(result_states))]
+    val = result_states[int(.8* len(result_states)):int(.9 * len(result_states))]
+    test = result_states[int(.9 * len(result_states)):]
+
+    return train, val, test
+
+def gen_states_new_agents(path, window_size, history_size):
+    # read in data
+    df = pd.read_csv(path)
+    df = df[['Open', 'High', 'Low', 'Close']].values
+
+    df_split = np.array([df[i-history_size:i+window_size] for i in range(history_size, len(df) - window_size - 1, window_size)][:-1])
+    df_split -= df_split[:,history_size,:][:,np.newaxis,:]
+
+    result_states = []
+    for episode in df_split:
+        episode_states = []
+        for t in range(window_size):
+            episode_states.append(np.append(episode[t:t+history_size+1].reshape(-1), t))
+        result_states.append(episode_states)
+
+    # split into train/val/test (80%, 10%, 10%)
+    train = np.array(result_states[:int(.8 * len(result_states))])
+    val = np.array(result_states[int(.8* len(result_states)):int(.9 * len(result_states))])
+    test = np.array(result_states[int(.9 * len(result_states)):])
+
+    return train, val, test
+
+window_size = 5
+history_size = hwindow - 1
+
+train, val, test = gen_episode_states('../histories/Apple_cleaned.csv', window_size, history_size)
+train_new, val_new, test_new = gen_states_new_agents('../histories/Apple_cleaned.csv', window_size, history_size)
+
+def evaluate_agent(agent, states_data, states_new, window_size):
+    """
+    This evaluation is based on how much the close price is lower when the
+    agent decides to buy compared to the initial price of the time window.
+    """
+    scores = []
+    never_bought_count = 0
+    time_bought = np.zeros(window_size + 1)
+    for episode, episode_new in zip(states_data, states_new):
+        for t, (state, state_new) in enumerate(zip(episode, episode_new)):
+            if t == len(episode) - 1:
+                # You have to buy at last time frame if didn't buy before
+                action = "buy"
+                never_bought_count += 1
+                time_bought[window_size] += 1
+                scores.append(-state_new[-2])
+                break
+            else:
+                # Get the best action for this state
+                action = epsilon_greedy(agent, state, eps=0)
+                if action == "buy":
+                    scores.append(-state_new[-2])
+                    time_bought[t] += 1
+                    break
+    score = np.mean(scores)
+    proportion_no_action = never_bought_count / len(states_data) * 100
+    print("Average score for the agent is {} and doesn't buy in {}% of the cases.".format(score, proportion_no_action))
+    for t, c in enumerate(time_bought):
+        if t < window_size:
+            print("t=%i  Bought %i times." % (t, c))
+        else:
+            print("Did not buy %i times." % c)
+    return score, proportion_no_action, time_bought
+
+evaluate_agent(Q, test, test_new, window_size)
