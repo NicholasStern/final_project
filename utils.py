@@ -29,12 +29,11 @@ def gen_states(path, window_size, history_size):
 
 ### Function to evaluate agent ###
 
-def evaluate_agent(agent, states_data):
+def evaluate_agent(agent, states_data, verbose=1):
     """
     This evaluation is based on how much the close price is lower when the
     agent decides to buy compared to the initial price of the time window.
     """
-    print('\nTest Set Final Evaluation:')
     scores = []
     never_bought_count = 0
     window_size = states_data.shape[1]
@@ -57,10 +56,13 @@ def evaluate_agent(agent, states_data):
                     break
     score = np.mean(scores)
     proportion_no_action = never_bought_count / len(states_data) * 100
-    print("Average profit for the agent is {} and doesn't buy in {}% of the cases.".format(score, proportion_no_action))
+    if verbose:
+        print("Average profit for the agent is {} and doesn't buy in {}% of the cases.".format(score, proportion_no_action))
     for t, c in enumerate(time_bought):
         if t < window_size:
-            print("t=%i  Bought %i times." % (t, c))
+            if verbose:
+                print("t=%i  Bought %i times." % (t, c))
         else:
-            print("Did not buy %i times." % c)
+            if verbose:
+                print("Did not buy %i times." % c)
     return score, proportion_no_action, time_bought
