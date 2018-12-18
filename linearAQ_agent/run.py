@@ -1,30 +1,10 @@
+import sys
+sys.path.append('..')
+from utils import gen_states, evaluate_agent
 import pandas as pd
 import numpy as np
 from linearAQ import LinearAQ
 from collections import Counter
-
-def gen_states(path, window_size, history_size):
-    # read in data
-    df = pd.read_csv(path)
-    df = df[['Open', 'High', 'Low', 'Close']].values
-
-    df_split = np.array([df[i-history_size:i+window_size] for i in range(history_size, len(df) - window_size - 1, window_size)][:-1])
-    df_split -= df_split[:,history_size,:][:,np.newaxis,:]
-
-    result_states = []
-    for episode in df_split:
-        episode_states = []
-        for t in range(window_size):
-            episode_states.append(np.append(episode[t:t+history_size+1].reshape(-1), t))
-        result_states.append(episode_states)
-
-    # split into train/val/test (80%, 10%, 10%)
-    train = np.array(result_states[:int(.8 * len(result_states))])
-    val = np.array(result_states[int(.8* len(result_states)):int(.9 * len(result_states))])
-    test = np.array(result_states[int(.9 * len(result_states)):])
-
-    return train, val, test
-
 
 def evaluate(title, actions, profit, regret):
     ac = Counter(actions)
@@ -35,7 +15,7 @@ def evaluate(title, actions, profit, regret):
     print('{} avg. regret: {:.4f}'.format(title, np.mean(regret)))
 
 ## Initialize Parameters
-window_size = 10  # days
+window_size = 5  # days
 history_size = 3  # days
 train, val, test = gen_states('../histories/Apple_cleaned.csv', window_size, history_size)
 actions = ['buy', 'wait']
@@ -51,3 +31,5 @@ evaluate('train', train_actions, train_profit, train_regret)
 agent.switch_mode('test', val)
 val_actions, val_profit, val_regret = agent.learn()
 evaluate('val', val_actions, val_profit, val_regret)
+
+evaluate_agent(agent, test)
