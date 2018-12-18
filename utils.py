@@ -69,7 +69,7 @@ def evaluate_agent(agent, states_data, verbose=True):
     return score, proportion_no_action, time_bought
 
 
-def evaluate_agent_advanced(agent, states_data, n=100):
+def evaluate_agent_advanced(agent, states_data, n=100, evaluate_agent_function=evaluate_agent, reset_agent_function=None):
     random.seed(123)
 
     score_all = []
@@ -79,14 +79,13 @@ def evaluate_agent_advanced(agent, states_data, n=100):
         print("%i/%i" % (i+1, n))
         # Learns with epsilon-greedy algorithm, which is stochastic
 
-        try:
+        if reset_agent_function is not None:
+            agent = reset_agent_function(agent)
+        else:
             agent.reset()
             agent.learn()
-        except AttributeError:
-            # Baseline model
-            pass
 
-        score, proportion_no_action, time_bought = evaluate_agent(agent, states_data, verbose=False)
+        score, proportion_no_action, time_bought = evaluate_agent_function(agent, states_data, verbose=False)
         score_all.append(score)
         proportion_no_action_all.append(proportion_no_action)
         time_bought_all.append(time_bought)
@@ -109,5 +108,6 @@ def evaluate_agent_advanced(agent, states_data, n=100):
         else:
             print("Did not buy {:.2f} (+/- {:.2f}) times.".format(m, s))
 
+    return score_all
 
 
