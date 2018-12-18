@@ -1,7 +1,7 @@
 import pandas as pd
-import numpy as np
-from linearAQ import LinearAQ
 from collections import Counter
+import numpy as np
+from NNQ import NNQ
 
 def gen_states(path, window_size, history_size):
     # read in data
@@ -25,7 +25,6 @@ def gen_states(path, window_size, history_size):
 
     return train, val, test
 
-
 def evaluate(title, actions, profit, regret):
     ac = Counter(actions)
     purch = ac['buy'] / len(actions)
@@ -35,19 +34,21 @@ def evaluate(title, actions, profit, regret):
     print('{} avg. regret: {:.4f}'.format(title, np.mean(regret)))
 
 ## Initialize Parameters
-window_size = 10  # days
-history_size = 3  # days
+window_size = 10
+history_size = 3
 train, val, test = gen_states('../histories/Apple_cleaned.csv', window_size, history_size)
 actions = ['buy', 'wait']
-epsilon = .05
-discount = 1
-alpha = .1
+epsilon = .3
+discount = .9
+num_layers = 20
+num_units = 100
+
 
 ## Pass to Approximate Q-Learning Agent
-agent = LinearAQ('train', actions, train, epsilon, discount, alpha)
+agent = NNQ('train', actions, train, epsilon, discount, num_layers, num_units)
 train_actions, train_profit, train_regret = agent.learn()
 evaluate('train', train_actions, train_profit, train_regret)
 
-agent.switch_mode('test', val)
+agent.switch_mode('val', val)
 val_actions, val_profit, val_regret = agent.learn()
 evaluate('val', val_actions, val_profit, val_regret)
