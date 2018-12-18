@@ -5,21 +5,21 @@ from collections import defaultdict
 
 class ApproxQ():
 
-    def __init__(self, mode, actions, data, epsilon, discount, alpha, nfeats):
+    def __init__(self, mode, actions, states, epsilon, discount, alpha):
         self.mode = mode  # train or test
         self.actions = actions  # list of actions
-        self.data = data  # market history to walk through in the form of a 2D array
+        self.states = states  # 3D array of states  (# windows, # days, size of state)
         self.epsilon = epsilon  # randomness of actions
         self.discount = discount  # discount factor
         self.alpha = alpha  # learning rate
-        self.nfeats = nfeats  # number of features
 
         # initialize linear model w/ weights dictionary for each action
-        self.models = {action: np.zeros(self.nfeats) for action in self.actions}
+        self.models = {action: np.zeros(self.states.shape[-1]) for action in self.actions}
 
-    def switch_mode(self, new_mode, new_data):
+    def switch_mode(self, new_mode, new_states, epsilon=0):
         self.mode = new_mode
-        self.data = new_data
+        self.states = new_states
+        self.epsilon = epsilon
 
     def reward(self, a):
         '''
@@ -27,13 +27,13 @@ class ApproxQ():
             - Reward is based on regret
         '''
 
-        if a == 'buy' or self.t == (len(self.data[self.w])-1):  # force agent to buy at end of time frame
-            choice = self.data[self.w][self.t][-1]  # close price on chosen day
-            best = min([x[-1] for x in self.data[self.w]])  # best close price
-            r = choice - best
-            return r
+        if a == 'buy' or self.t == (len(self.states[self.w])-1):  # force agent to buy at end of time frame
+            choice = self.states[self.w][self.t][-2] # difference in price from chosen day to initial day
+            best = min([x[-2] for x in self.states[self.w]])  # best close price
+            regret = choice - best
+            return -choice, regret
         else:
-            return 0
+            return 0, 0
 
     def update(self, a, s, sp, r):
         '''
@@ -82,18 +82,17 @@ class ApproxQ():
 
     def transition(self, a):
         '''
-            - Takes in t, w and returns next state
+            - Takes in action and returns next state
         '''
 
-        self.t += 1
-        if self.t == len(self.data[self.w]) or a == 'buy':
+        self.t += 1  # move to next day
+        if self.t == len(self.states[self.w]) or a == 'buy':
             self.t = 0
             self.w += 1
-            if self.w == len(self.data):
-                return None  # We are finished traversing data
+            if self.w == len(self.states):
+                return None  # We are finished traversing state space
 
-
-        return tuple(np.append(self.data[self.w][self.t], self.t))
+        return tuple(self.states[self.w][self.t])  # return next state
 
 
     def learn(self, iters=100):
@@ -102,16 +101,18 @@ class ApproxQ():
         '''
         self.w = 0  # window index
         self.t = 0  # timestep index within window
-        s = tuple(np.append(self.data[self.w][self.t], self.t)) # init state
+        s = tuple(self.states[self.w][self.t]) # init state
         actions = []
+        profit = []
         regret = []
         for _ in range(iters):
             a = self.epsilon_greedy(s, self.epsilon)
             actions.append(a)
 
-            r = self.reward(a)
+            r, reg = self.reward(a)
             if a == 'buy':
-                regret.append(r)
+                profit.append(r)
+                regret.append(reg)
 
             s_prime = self.transition(a)
 
@@ -123,4 +124,6 @@ class ApproxQ():
 
             s = s_prime
 
-        return actions, regret
+        for i, model in enumerate(self.models.values()):
+            print('Action {} weights: {}'.format(self.actions[i], model))
+        return actions, profit, regret
