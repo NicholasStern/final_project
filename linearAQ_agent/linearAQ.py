@@ -3,7 +3,7 @@ import numpy as np
 import random
 from collections import defaultdict
 
-class ApproxQ():
+class LinearAQ():
 
     def __init__(self, mode, actions, states, epsilon, discount, alpha):
         self.mode = mode  # train or test
@@ -124,6 +124,4 @@ class ApproxQ():
 
             s = s_prime
 
-        for i, model in enumerate(self.models.values()):
-            print('Action {} weights: {}'.format(self.actions[i], model))
         return actions, profit, regret
