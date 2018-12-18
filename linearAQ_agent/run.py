@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from approxQ import ApproxQ
+from linearAQ import LinearAQ
 from collections import Counter
 
 def gen_states(path, window_size, history_size):
@@ -45,7 +45,7 @@ alpha = .1
 nfeats = 5
 
 ## Pass to Approximate Q-Learning Agent
-agent = ApproxQ('train', actions, train, epsilon, discount, alpha)
+agent = LinearAQ('train', actions, train, epsilon, discount, alpha)
 train_actions, train_profit, train_regret = agent.learn()
 evaluate('train', train_actions, train_profit, train_regret)
 
