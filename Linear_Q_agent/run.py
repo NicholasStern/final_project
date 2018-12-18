@@ -8,24 +8,28 @@ def gen_states(path, window_size, history_size):
     df = pd.read_csv(path)
     df = df[['Open', 'High', 'Low', 'Close']].values
 
-    # segment into time windows
-    df_split = np.array_split(df[:df.shape[0] // window_size * window_size], df.shape[0] // window_size)
+    df_split = np.array([df[i-history_size:i+window_size] for i in range(history_size, len(df) - window_size - 1, window_size)][:-1])
+    df_split -= df_split[:,history_size,:][:,np.newaxis,:]
+
+    result_states = []
+    for episode in df_split:
+        episode_states = []
+        for t in range(window_size):
+            episode_states.append(np.append(episode[t:t+history_size+1].reshape(-1), t))
+        result_states.append(episode_states)
 
     # split into train/val/test (80%, 10%, 10%)
-    train = df_split[:int(.8 * len(df_split))]
-    val = df_split[int(.8* len(df_split)):int(.9 * len(df_split))]
-    test = df_split[int(.9 * len(df_split)):]
+    train = np.array(result_states[:int(.8 * len(result_states))])
+    val = np.array(result_states[int(.8* len(result_states)):int(.9 * len(result_states))])
+    test = np.array(result_states[int(.9 * len(result_states)):])
+
+
 
     # important check
-    data = [train, val, test]
-    for dataset in data:
-        for w in dataset:
-            assert len(w) == window_size
-
-    # generate states
-    for i in range(history_size-1, len(train)*window_size):
-
-
+    # data = [train, val, test]
+    # for dataset in data:
+    #     for w in dataset:
+    #         assert len(w) == window_size
 
     return train, val, test
 
@@ -38,9 +42,9 @@ def evaluate(title, actions, regret):
     print('{} avg. regret: {:.4f}'.format(title, np.mean(regret)))
 
 ## Initialize Parameters
-window_size = 20  # days
+window_size = 10  # days
 history_size = 3  # days
-train, val, test = gen_data('../histories/Apple_cleaned.csv', window_size)
+train, val, test = gen_states('../histories/Apple_cleaned.csv', window_size, history_size)
 actions = ['buy', 'wait']
 epsilon = 0
 discount = 1
