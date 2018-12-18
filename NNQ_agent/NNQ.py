@@ -84,7 +84,7 @@ class NNQ:
         '''
         if self.mode == 'test':
             eps = 0
-            
+
         if random.random() < eps:  # True with prob eps, random action
             return self.actions[random.randint(0,len(self.actions)-1)]
         else:  # False with prob 1-eps, greedy action
