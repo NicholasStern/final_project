@@ -29,7 +29,7 @@ def gen_states(path, window_size, history_size):
 
 ### Function to evaluate agent ###
 
-def evaluate_agent(agent, states_data, verbose=1):
+def evaluate_agent(agent, states_data, verbose=True):
     """
     This evaluation is based on how much the close price is lower when the
     agent decides to buy compared to the initial price of the time window.
@@ -56,13 +56,29 @@ def evaluate_agent(agent, states_data, verbose=1):
                     break
     score = np.mean(scores)
     proportion_no_action = never_bought_count / len(states_data) * 100
+
     if verbose:
         print("Average profit for the agent is {} and doesn't buy in {}% of the cases.".format(score, proportion_no_action))
-    for t, c in enumerate(time_bought):
-        if t < window_size:
-            if verbose:
+        for t, c in enumerate(time_bought):
+            if t < window_size:
                 print("t=%i  Bought %i times." % (t, c))
-        else:
-            if verbose:
+            else:
                 print("Did not buy %i times." % c)
+
     return score, proportion_no_action, time_bought
+
+
+def evaluate_agent_advanced(agent, states_data, n=100, evaluate_agent_function=evaluate_agent):
+    score_all = []
+    proportion_no_action_all = []
+    time_bought_all = []
+    for _ in range(n):
+        score, proportion_no_action, time_bought = evaluate_agent_function(agent, states_data, verbose=False)
+        score_all.append(score)
+        proportion_no_action_all.append(proportion_no_action)
+        time_bought_all.append(time_bought)
+    score_mean = np.mean(score_all)
+    score_std = np.std(score_all)
+    proportion_no_action_mean = np.mean(proportion_no_action_all)
+    proportion_no_action_std = np.std(proportion_no_action_all)
+
