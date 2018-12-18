@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import random
 
 ### Function to generate states from data ###
 
@@ -68,12 +69,24 @@ def evaluate_agent(agent, states_data, verbose=True):
     return score, proportion_no_action, time_bought
 
 
-def evaluate_agent_advanced(agent, states_data, n=100, evaluate_agent_function=evaluate_agent):
+def evaluate_agent_advanced(agent, states_data, n=100):
+    random.seed(123)
+
     score_all = []
     proportion_no_action_all = []
     time_bought_all = []
-    for _ in range(n):
-        score, proportion_no_action, time_bought = evaluate_agent_function(agent, states_data, verbose=False)
+    for i in range(n):
+        print("%i/%i" % (i+1, n))
+        # Learns with epsilon-greedy algorithm, which is stochastic
+
+        try:
+            agent.reset()
+            agent.learn()
+        except AttributeError:
+            # Baseline model
+            pass
+
+        score, proportion_no_action, time_bought = evaluate_agent(agent, states_data, verbose=False)
         score_all.append(score)
         proportion_no_action_all.append(proportion_no_action)
         time_bought_all.append(time_bought)
@@ -81,4 +94,20 @@ def evaluate_agent_advanced(agent, states_data, n=100, evaluate_agent_function=e
     score_std = np.std(score_all)
     proportion_no_action_mean = np.mean(proportion_no_action_all)
     proportion_no_action_std = np.std(proportion_no_action_all)
+    time_bought_mean = np.mean(time_bought_all, axis=0)
+    time_bought_std = np.std(time_bought_all, axis=0)
+
+    print("Average profit for the agent is {:.4f} (+/- {:.4f}) and doesn't "
+          "buy in {:.2f}% (+/- {:.2f}%)"
+          " of the cases.".format(score_mean,
+                                  score_std,
+                                  proportion_no_action_mean,
+                                  proportion_no_action_std))
+    for t, (m, s) in enumerate(zip(time_bought_mean, time_bought_std)):
+        if t < len(time_bought_mean) - 1:
+            print("t={}  Bought {:.2f} (+/- {:.2f}) times.".format(t, m, s))
+        else:
+            print("Did not buy {:.2f} (+/- {:.2f}) times.".format(m, s))
+
+
 

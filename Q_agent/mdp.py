@@ -1,4 +1,5 @@
 import random
+from copy import deepcopy
 
 class MDP:
 
@@ -9,7 +10,7 @@ class MDP:
         self.transition_model = transition_model
         self.reward_fn = reward_fn
         self.discount_factor = discount_factor
-        self.p = p
+        self.p = deepcopy(p)
         self.hist = hist
         self.hwindow = hwindow
 
