@@ -124,6 +124,4 @@ class LinearAQ():
 
             s = s_prime
 
-        for i, model in enumerate(self.models.values()):
-            print('Action {} weights: {}'.format(self.actions[i], model))
         return actions, profit, regret
