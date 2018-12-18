@@ -24,13 +24,21 @@ class NNQ:
         self.epsilon = epsilon  # randomness of actions
         self.discount = discount  # discount factor
         self.nfeats = self.states.shape[-1]
+        self.num_layers = num_layers
+        self.num_units = num_units
 
         # initialize linear model w/ weights dictionary for each action
-        self.models = dict([(a, make_nn(self.nfeats, num_layers, num_units)) for a in actions])
+        self.models = dict([(a, make_nn(self.nfeats, self.num_layers, self.num_units)) for a in self.actions])
 
     def switch_mode(self, new_mode, new_states):
         self.mode = new_mode
         self.states = new_states
+
+    def reset(self):
+        '''
+            - resets the weights of the agent (for repeated training and testing situations)
+        '''
+        self.models = dict([(a, make_nn(self.nfeats, self.num_layers, self.num_units)) for a in self.actions])
 
     def reward(self, a):
         '''

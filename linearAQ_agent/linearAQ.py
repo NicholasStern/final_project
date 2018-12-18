@@ -21,6 +21,12 @@ class LinearAQ():
         self.states = new_states
         self.epsilon = epsilon
 
+    def reset(self):
+        '''
+            - resets the weights of the agent (for repeated training and testing situations)
+        '''
+        self.models = {action: np.zeros(self.states.shape[-1]) for action in self.actions}
+
     def reward(self, a):
         '''
             - Calculates reward to give agent based on action a at timestep t in window w
