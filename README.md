@@ -1,17 +1,56 @@
 # Predicting Stock Trends w/ Reinforcement Learning
+## Julien Laasri, Nicholas Stern, Ziyi (Queena) Zhou
+### Harvard Artificial Intelligence Final Project Fall 2018
 
 ## Introduction
+The goal of our project was to use reinforcement learning to identify
+implicit stock trends, and train an agent to decide on the best time 
+to buy a stock within a given time frame. The full description of the 
+problem framework and development/evaluation of the agents can be found in
+the final report pdf located in the top level of the repo.
 
+## How to use
 
-## Problem Definition
+There are 4 agents in the repo that can be run. They reside in the following
+four directories:
 
-### State space representation
-States are defined to be the upward/downward price trends of a particular stock for the previous "h" recorded days 
-on the stock market. Each upward/downward trend is determined by the difference in the opening and closing prices of the 
-stock on that day. Upward movement is encoded as 1, downward movement is encoded as 0, and days with no available
-information are encoded as -1. An agent might have no information if they are just starting an episode and are unaware of 
-any past price information. An example state representation could be the following:
+- Baseline_agent: An agent that obeys simple logic to set a standard
+- Q_agent: An epsilon-greedy Q-learning agent
+- linearAQ_agent: An epsilon-greedy approximate Q-learning agent that 
+uses linear function approximation
+- NNQ_agent: An epsilon-greedy approximate Q-learning agent that 
+uses neural nets to perform function approximation
 
-state = (-1, 0, 1)
+### Input
 
-Note that dates with the same opening and closing prices were encoded as a decrease to limit the number of states.
+Within each of the directories are two important .py files. One will be a
+variation of the agents name, containing a class that defines the agent. The other
+is run.py, which is the only file the user needs to interact with. Simply type
+
+```bash
+$ python run.py
+```
+
+to run each agent. The Q-learning agent gives one the option to specify 
+the input parameters. To see all the command line options with descriptions,
+type
+
+```bash
+$ python run.py -h
+```
+
+For the rest of the agents, in order to change the parameters, the user can
+simply edit the run.py file where the initializations are made.
+
+### Output
+
+Each approximate Q learning agent will output the agent's performance on the
+training and validation sets. The metrics for evaluation are average profit, 
+the average regret (see paper for in depth description), and the fraction
+of times the agent decided to buy. An example output looks like this:
+
+![](images/ex_output.png)
+
+The exact Q-learning agent is not evaluated the same way by default, and will
+instead output an accuracy score for its decisions, and the fraction of 
+its decisions that were purchases.

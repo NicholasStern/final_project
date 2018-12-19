@@ -26,8 +26,11 @@ alpha = .1
 ## Pass to Approximate Q-Learning Agent
 agent = LinearAQ('train', actions, train, epsilon, discount, alpha)
 train_actions, train_profit, train_regret = agent.learn()
+
+print('\nTraining Evaluation:')
 evaluate('train', train_actions, train_profit, train_regret)
 
+print('\nValidation Evaluation:')
 agent.switch_mode('test', val)
 val_actions, val_profit, val_regret = agent.learn()
 evaluate('val', val_actions, val_profit, val_regret)
