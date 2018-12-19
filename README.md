@@ -54,3 +54,17 @@ of times the agent decided to buy. An example output looks like this:
 The exact Q-learning agent is not evaluated the same way by default, and will
 instead output an accuracy score for its decisions, and the fraction of 
 its decisions that were purchases.
+
+We have four companies' stock data, from Apple, Amazon, Google, Microsoft. To compare our four agents' performance on one particular company, open the file in the main directory called 'agent\_evaluation.py'. Locate the comment line that says '\# Parameter Initializations'. Under this line, change the company name to be the one you want to look at. For example, if I want to look at Microsoft's stock, I will type:
+
+```bash
+company = "Microsoft"
+```
+
+Then in your command line, type:
+
+```bash
+$ python agent_evaluation.py
+```
+
+After the code finishes running, you should be able to see a newly created '.csv' file, in the 'results' folder, that summarizes the performance of four agents. You also create a histogram graph in the 'images' folder.
