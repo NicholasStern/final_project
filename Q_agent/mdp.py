@@ -5,13 +5,13 @@ class MDP:
 
     def __init__(self, states, actions, transition_model, reward_fn, p, hist, hwindow,
                      discount_factor = 1.0):
-        self.states = states
-        self.actions = actions
+        self.states = deepcopy(states)
+        self.actions = deepcopy(actions)
         self.transition_model = transition_model
         self.reward_fn = reward_fn
         self.discount_factor = discount_factor
         self.p = deepcopy(p)
-        self.hist = hist
+        self.hist = deepcopy(hist)
         self.hwindow = hwindow
 
     # Given a state, return True if the state should be considered to
