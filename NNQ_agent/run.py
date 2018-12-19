@@ -26,10 +26,12 @@ num_units = 9
 
 
 ## Pass to Approximate Q-Learning Agent
+print('\nTraining Evaluation:')
 agent = NNQ('train', actions, train, epsilon, discount, num_layers, num_units)
 train_actions, train_profit, train_regret = agent.learn()
 evaluate('train', train_actions, train_profit, train_regret)
 
+print('\nValidation Evaluation:')
 agent.switch_mode('val', val)
 val_actions, val_profit, val_regret = agent.learn()
 evaluate('val', val_actions, val_profit, val_regret)

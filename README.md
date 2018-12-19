@@ -9,7 +9,7 @@ to buy a stock within a given time frame. The full description of the
 problem framework and development/evaluation of the agents can be found in
 the final report pdf located in the top level of the repo.
 
-## How to use
+## How to run agents
 
 There are 4 agents in the repo that can be run. They reside in the following
 four directories:
@@ -55,6 +55,8 @@ The exact Q-learning agent is not evaluated the same way by default, and will
 instead output an accuracy score for its decisions, and the fraction of 
 its decisions that were purchases.
 
+## How to evaluate agents
+
 We have four companies' stock data, from Apple, Amazon, Google, Microsoft. To compare our four agents' performance on one particular company, open the file in the main directory called 'agent\_evaluation.py'. Locate the comment line that says '\# Parameter Initializations'. Under this line, change the company name to be the one you want to look at. For example, if I want to look at Microsoft's stock, I will type:
 
 ```bash
@@ -68,3 +70,8 @@ $ python agent_evaluation.py
 ```
 
 After the code finishes running, you should be able to see a newly created '.csv' file, in the 'results' folder, that summarizes the performance of four agents. You also create a histogram graph in the 'images' folder.
+
+## Also in the repo
+
+You can also find a few jupyter notebooks in the top level of the repo responsible for 
+creating some of the exploratory visuals for data cleaning, price prediction, and hyperparameter tuning.

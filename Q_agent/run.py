@@ -1,6 +1,3 @@
-import sys
-sys.path.append('..')
-from utils import evaluate_agent_advanced
 import numpy as np
 from mdp import MDP, TabularQ, Q_learn, epsilon_greedy
 import pandas as pd
