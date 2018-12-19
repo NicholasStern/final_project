@@ -1,0 +1,5 @@
+Agent,Average score,Confidence interval for score mean,Score standard deviation
+Baseline,-0.089,[-0.0890;-0.0890],0.0
+Q-Learning,-0.1602,[-0.1960;-0.1243],0.1275
+Approximate Linear,-0.126,[-0.1785;-0.0734],0.1868
+Deep Q-Learning,-0.1593,[-0.2025;-0.1161],0.1537
