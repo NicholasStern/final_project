@@ -31,6 +31,3 @@ evaluate('train', train_actions, train_profit, train_regret)
 agent.switch_mode('test', val)
 val_actions, val_profit, val_regret = agent.learn()
 evaluate('val', val_actions, val_profit, val_regret)
-
-agent.switch_mode('train', train)
-evaluate_agent_advanced(agent, test)

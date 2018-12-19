@@ -28,7 +28,7 @@ def gen_states(path, window_size, history_size):
 
     return train, val, test
 
-### Function to evaluate agent ###
+### Functions to evaluate agents ###
 
 def evaluate_agent(agent, states_data, verbose=True):
     """
