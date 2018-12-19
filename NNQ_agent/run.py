@@ -21,8 +21,8 @@ train, val, test = gen_states('../histories/Apple_cleaned.csv', window_size, his
 actions = ['buy', 'wait']
 epsilon = .05
 discount = 1
-num_layers = 2
-num_units = 100
+num_layers = 15
+num_units = 9
 
 
 ## Pass to Approximate Q-Learning Agent
