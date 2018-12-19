@@ -69,14 +69,15 @@ def evaluate_agent(agent, states_data, verbose=True):
     return score, proportion_no_action, time_bought
 
 
-def evaluate_agent_advanced(agent, states_data, n=100, evaluate_agent_function=evaluate_agent, reset_agent_function=None):
+def evaluate_agent_advanced(agent, states_data, n=100, evaluate_agent_function=evaluate_agent, reset_agent_function=None, verbose=True):
     random.seed(123)
 
     score_all = []
     proportion_no_action_all = []
     time_bought_all = []
     for i in range(n):
-        print("%i/%i" % (i+1, n))
+        if verbose:
+            print("%i/%i" % (i+1, n))
         # Learns with epsilon-greedy algorithm, which is stochastic
 
         if reset_agent_function is not None:
@@ -96,17 +97,18 @@ def evaluate_agent_advanced(agent, states_data, n=100, evaluate_agent_function=e
     time_bought_mean = np.mean(time_bought_all, axis=0)
     time_bought_std = np.std(time_bought_all, axis=0)
 
-    print("Average profit for the agent is {:.4f} (+/- {:.4f}) and doesn't "
-          "buy in {:.2f}% (+/- {:.2f}%)"
-          " of the cases.".format(score_mean,
-                                  score_std,
-                                  proportion_no_action_mean,
-                                  proportion_no_action_std))
-    for t, (m, s) in enumerate(zip(time_bought_mean, time_bought_std)):
-        if t < len(time_bought_mean) - 1:
-            print("t={}  Bought {:.2f} (+/- {:.2f}) times.".format(t, m, s))
-        else:
-            print("Did not buy {:.2f} (+/- {:.2f}) times.".format(m, s))
+    if verbose:
+        print("Average profit for the agent is {:.4f} (+/- {:.4f}) and doesn't "
+              "buy in {:.2f}% (+/- {:.2f}%)"
+              " of the cases.".format(score_mean,
+                                      score_std,
+                                      proportion_no_action_mean,
+                                      proportion_no_action_std))
+        for t, (m, s) in enumerate(zip(time_bought_mean, time_bought_std)):
+            if t < len(time_bought_mean) - 1:
+                print("t={}  Bought {:.2f} (+/- {:.2f}) times.".format(t, m, s))
+            else:
+                print("Did not buy {:.2f} (+/- {:.2f}) times.".format(m, s))
 
     return score_all
 

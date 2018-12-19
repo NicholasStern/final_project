@@ -24,7 +24,7 @@ class MDP:
 
     # Choose a state to start over
     def init_state(self):
-        new_init_state = tuple([self.hist[self.p-i] for i in range(1, self.hwindow+1)])
+        new_init_state = tuple([self.hist[self.p-i] for i in range(0, self.hwindow+1)])
         return new_init_state
 
     # Simulate a transition from state s, given action a at point "p" in history.

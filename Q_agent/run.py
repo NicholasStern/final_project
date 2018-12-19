@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+from utils import evaluate_agent_advanced
 import numpy as np
 from mdp import MDP, TabularQ, Q_learn, epsilon_greedy
 import pandas as pd
@@ -17,10 +20,10 @@ def gen_hist(path):
 def gen_states(h):
     # generates possible states for a history window h
     states = [('T')]
-    for i in range(2**h):
+    for i in range(2**(h+1)):
         b = bin(i)[2:]
         l = len(b)
-        b = str(0) * (h - l) + b
+        b = str(0) * ((h+1) - l) + b
         states.append(tuple([int(i) for i in b]))
 
     return states
@@ -144,6 +147,7 @@ with h5py.File("results.hdf5", mode='a') as f:
     except:  # otherwise create it
         f.create_dataset(name, data=data)
 
+
 def gen_episode_states(path, window_size, history_size):
     # read in data
     df = gen_hist(path)
@@ -189,10 +193,10 @@ def gen_states_new_agents(path, window_size, history_size):
 window_size = 5
 history_size = hwindow - 1
 
-train, val, test = gen_episode_states('../histories/Apple_cleaned.csv', window_size, history_size)
-train_new, val_new, test_new = gen_states_new_agents('../histories/Apple_cleaned.csv', window_size, history_size)
+train, val, test = gen_episode_states('../histories/Apple_cleaned.csv', window_size, history_size+1)
+train_new, val_new, test_new = gen_states_new_agents('../histories/Apple_cleaned.csv', window_size, history_size+1)
 
-def evaluate_agent(agent, states_data, states_new, window_size, verbose=True):
+def evaluate_Qagent(agent, states_data, states_new, window_size, verbose=True):
     """
     This evaluation is based on how much the close price is lower when the
     agent decides to buy compared to the initial price of the time window.
@@ -230,14 +234,10 @@ def evaluate_agent(agent, states_data, states_new, window_size, verbose=True):
 
     return score, proportion_no_action, time_bought
 
-def evaluate_agent_function(agent, states_data, verbose):
-    return evaluate_agent(agent, states_data, test_new, window_size, verbose=verbose)
+def evaluate_Qagent_function(agent, states_data, verbose):
+    return evaluate_Qagent(agent, states_data, test_new, window_size, verbose=verbose)
 
-import sys
-sys.path.append('..')
-from utils import evaluate_agent_advanced
-
-def reset_agent(agent):
+def reset_Qagent(agent):
     hist = gen_hist('../histories/Apple_cleaned.csv')
     p = np.copy(
         hwindow)  # pointer index to history (start at 4th element so we have a history window
@@ -251,4 +251,4 @@ def reset_agent(agent):
                        eps=epsilon)  # setting eps = 0 means no epsilon-greedy
     return agent
 
-evaluate_agent_advanced(Q, test, n=100, evaluate_agent_function=evaluate_agent_function, reset_agent_function=reset_agent)
+# evaluate_agent_advanced(Q, test, n=100, evaluate_agent_function=evaluate_Qagent_function, reset_agent_function=reset_Qagent, verbose=False)
