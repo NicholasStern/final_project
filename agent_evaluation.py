@@ -20,7 +20,7 @@ from Q_agent.mdp import MDP, TabularQ, Q_learn, epsilon_greedy
 
 
 # Parameter Initializations
-company = "Amazon"
+company = "Apple"
 path = 'histories/{}_cleaned.csv'.format(company)
 window_size = 5  # time window size
 history_size = 3  # number of previous days to consider
